@@ -1,9 +1,9 @@
-import './App.css';
+import Navigation from "./components/HomePage/Navigation";
 
 function App() {
   return (
     <div className="App">
-     <h1>Test</h1>
+     <Navigation />
     </div>
   );
 }
