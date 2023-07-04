@@ -9,7 +9,7 @@ module.exports = {
         'xss': '270px',
         'xs': '410px',
         'sm': '430px',
-        'md': '541px',
+        'md': '740px',
         'mdd': '799px'
       }
     },

@@ -20,9 +20,9 @@ const Navigation = () => {
   
     window.addEventListener('scroll', changeBackground); // preraditi u useeffect 
     return (
-      <div className={color ? 'w-full mx-auto p-3  bg-[#ecf0f5] border-b-2 ease-in duration-200 fixed top-0 left-0 right-0 z-10' :'w-full mx-auto p-3  bg-[#f1f5f9] ease-out duration-150 fixed top-0 left-0 right-0 z-10'}>
+      <div className={color ? 'w-full mx-auto p-4  bg-[#ecf0f5] border-b-2 ease-in duration-200 fixed top-0 left-0 right-0 z-10' :'w-full mx-auto p-4  bg-[#f1f5f9] ease-out duration-150 fixed top-0 left-0 right-0 z-10'}>
           <div className='w-[90%] mx-auto flex justify-between'>
-          <div className='xss: w-full flex md:w-auto'>
+          <div className='xss: w-full flex items-center md:w-auto'>
           
           <AiOutlineMenu className='mr-2 cursor-pointer md:hidden' size={25} onClick={()=> setNav(!nav)}></AiOutlineMenu>
           <h1 className='xss: ml-5 text-lg md:hidden cursor-default'>NIRINA</h1>
@@ -49,19 +49,19 @@ const Navigation = () => {
       
           </div>
           <div className='flex items-center justify-center xss:hidden md:flex'> 
-             <ul className='flex flex-row text-[#354a67] text-md'>
-              <li className='mr-2 cursor-pointer
+             <ul className='flex flex-row items-center text-[#354a67] text-md'>
+              <li className='mr-4 cursor-pointer
                             hover:font-[600]'>HOME</li>
-              <li className='mr-2 cursor-pointer
+              <li className='mr-4 cursor-pointer
                             hover:font-[600]'>ABOUT US</li>
-              <li className='mr-2 cursor-pointer
+              <li className='mr-4 cursor-pointer
                             hover:font-[600]'>ADOPT</li>
-              <li className='mr-2 cursor-pointer
+              <li className='mr-4 cursor-pointer
                             hover:font-[600]'>PROGRAMS</li>
-              <li className='mr-2 cursor-pointer
+              <li className='mr-4 cursor-pointer
                             hover:font-[600]'>CONTACT US</li>
-              <li className='mr-2 cursor-pointer
-                            hover:font-[600]'>DONATE</li>
+              <li className='mr-4 cursor-pointer bg-blue-500 rounded-full px-4 py-2 text-white
+                            hover:text-black'>DONATE</li>
              </ul>
   
           </div>
