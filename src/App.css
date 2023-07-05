@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "LilitaOne";
+    src: url("./assets/Fonts/LilitaOne-Regular.ttf");
+  }
