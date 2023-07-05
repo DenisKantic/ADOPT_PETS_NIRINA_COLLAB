@@ -14,50 +14,18 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
+
+
+
 function DogItem() {
   const [dogGallery, setDogGallery] = useState([
     dog1, dog2, dog3, dog4, dog5, dog6, dog7
   ]);
 
-  const styles = {
-    swiperContainer: {
-      width: '35%',
-      overflow: 'hidden',
-      margin: '0 auto',
-      background: '#F8F9FD'
-    },
-    swiperSlide: {
-      width: '100%',
-      margin: '0 auto',
-      overflow: 'hidden',
-    },
-    image: {
-      maxWidth: '100%',
-      display: 'block'
-    },
-    buttonContainer: {
-      textAlign: 'center',
-    },
-    button: {
-      width: '100px',
-      height: '35px',
-      background: '#87CEEB',
-      border: 'none',
-      borderRadius: '4px',
-      cursor: 'pointer',
-    },
-    imgDescCont: {
-      padding: '10px',
-      fontWeight: 400,
-      fontFamily: 'Open Sans, sans-serif',
-    },
-    titles: {
-      color: '#5E6BD4'
-    }
-  };
+  
   return (
     <>
-      <div style={styles.swiperContainer}>
+      <div className="w-[35%] overflow-hidden mx-auto bg-stone-100">
         <Swiper
           modules={[Navigation, Pagination, Scrollbar, A11y]}
           spaceBetween={0}
@@ -66,27 +34,27 @@ function DogItem() {
           onSlideChange={() => console.log('slide change')}
           onSwiper={(swiper) => console.log(swiper)}
         >
-          <div style={styles.swiperSlide}>
+          <div className="w-[100%] mx-auto overflow-hidden">
             {dogGallery.map((dog) => (
               <SwiperSlide key={dog}>
-                <div style={styles.swiperSlide}>
-                  <img src={dog} style={styles.image} alt="Dog" />
+                <div className="w-[100%] mx-auto overflow-hidden">
+                  <img src={dog} className="max-w-[100%] block" alt="Dog" />
                 </div>
               </SwiperSlide>
             ))}
           </div>
         </Swiper>
-        <div style={styles.imgDescCont}>
+        <div className="p-[10px] font-normal">
           <div>
-            <h1 style={styles.titles}>Snoop Dog</h1>
+            <h1 className="text-indigo-600">Snoop Dog</h1>
           </div>
           <div>
             <p>Dog description (about dog):</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
           </div>    
-          <div style={styles.buttonContainer}>
-            <button type="button" style={styles.button}>Adopt Me</button>
+          <div className="text-center">
+            <button type="button" className="w-[100px] h-[35px] bg-sky-300 border-none rounded cursor-pointer">Adopt Me</button>
           </div>  
         </div>
       </div>        
