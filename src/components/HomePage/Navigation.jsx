@@ -5,11 +5,10 @@ import {AiOutlineMenu,AiOutlineClose,AiOutlineHome,AiOutlineInfoCircle, AiOutlin
 
 const Navigation = () => {
 
+
     const [nav,setNav]=useState(false);
-  
     const [color,setColor] = useState(false);
-  
-    
+
     const changeBackground = () => {
       if (window.scrollY >= 90){
         setColor(true);
@@ -52,12 +51,29 @@ const Navigation = () => {
              <ul className='flex flex-row items-center text-[#354a67] text-md'>
               <li className='mr-4 cursor-pointer
                             hover:font-[600]'>HOME</li>
-              <li className='mr-4 cursor-pointer
-                            hover:font-[600]'>ABOUT US</li>
+            
+            <div className='flex justify-center'>
+              <button class="peer mr-4 py-2 text-black">ABOUT US</button>
+        <div class="hidden absolute peer-hover:flex hover:flex  
+         w-auto bg-green-700 text-sm mt-10
+         flex-col bg-white drop-shadow-lg">
+            <a class="px-4 py-3 text-white hover:text-black" href="/">OUR STORY</a>
+            <a class="px-4 py-3 text-white hover:text-black" href="/">OUR TEAM</a>
+            <a class="px-4 py-3 text-white hover:text-black" href="/">FACILITIES</a>
+            <a class="px-4 py-3 text-white hover:text-black" href="/">HOW TO ADOPT</a>
+        </div>
+    </div>
+             
+
+              {/* testing */}
               <li className='mr-4 cursor-pointer
                             hover:font-[600]'>ADOPT</li>
               <li className='mr-4 cursor-pointer
                             hover:font-[600]'>PROGRAMS</li>
+              <li className='mr-4 cursor-pointer
+                            hover:font-[600]'>VOLUNTEER</li>
+                 <li className='mr-4 cursor-pointer
+                            hover:font-[600]'>HAPPY END</li>
               <li className='mr-4 cursor-pointer
                             hover:font-[600]'>CONTACT US</li>
               <li className='mr-4 cursor-pointer bg-blue-500 rounded-full px-4 py-2 text-white
