@@ -3,9 +3,11 @@ import Programs from './components/program/Programs';
 
 function App() {
   return (
-    <div className="App">
-     <Programs />
-    </div>
+    <>
+    <Programs />
+    </>
+     
+    
   );
 }
 

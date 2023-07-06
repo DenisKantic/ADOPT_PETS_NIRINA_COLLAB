@@ -6,3 +6,8 @@
     font-family: "LilitaOne";
     src: url("./assets/Fonts/LilitaOne-Regular.ttf");
   }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+  }
