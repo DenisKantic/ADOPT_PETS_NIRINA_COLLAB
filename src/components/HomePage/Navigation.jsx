@@ -60,8 +60,8 @@ const Navigation = () => {
             <div className='flex justify-center'>
               <button className="peer mr-4 py-2 text-black">ABOUT US</button>
         <div className="hidden absolute peer-hover:flex hover:flex  
-         w-auto bg-green-700 text-sm mt-10
-         flex-col bg-white drop-shadow-lg">
+         w-auto bg-red-400 text-sm mt-10
+         flex-col drop-shadow-lg">
             <a className="px-4 py-3 text-white hover:text-black" href="/">OUR STORY</a>
             <a className="px-4 py-3 text-white hover:text-black" href="/">OUR TEAM</a>
             <a className="px-4 py-3 text-white hover:text-black" href="/">FACILITIES</a>
