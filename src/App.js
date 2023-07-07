@@ -1,9 +1,10 @@
-import './App.css';
+// import Navigation from "./components/HomePage/Navigation";
+import Adopt from "./components/Adopt/Adopt";
 
 function App() {
   return (
     <div className="App">
-     <h1>Test</h1>
+     <Adopt />
     </div>
   );
 }
