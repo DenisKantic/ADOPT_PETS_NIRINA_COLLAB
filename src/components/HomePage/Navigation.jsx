@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react';
-import {AiOutlineMenu,AiOutlineClose,AiOutlineHome,AiOutlineInfoCircle, AiOutlineShoppingCart, AiOutlinePhone} from 'react-icons/ai';
+import {AiOutlineMenu,AiOutlineClose,AiOutlineHome,AiOutlineInfoCircle,AiOutlinePhone} from 'react-icons/ai';
 
 
 const Navigation = () => {
@@ -36,8 +36,13 @@ const Navigation = () => {
                       <ul className='flex flex-col items-start p-4 text-black text-lg mt-[50px]'>
               <li className='mr-2 flex items-center py-2' onClick={()=> setNav(!nav)}><AiOutlineHome size={22} className='mr-5'/>HOME</li>
               <li className='mr-2 flex items-center py-2' onClick={()=> setNav(!nav)}><AiOutlineInfoCircle size={22} className='mr-5' />ABOUT US</li>
-              <li className='mr-2 flex items-center py-2' onClick={()=> setNav(!nav)}><AiOutlineShoppingCart size={22} className='mr-5' />ADOPT</li>
+              <li className='mr-2 flex items-center py-2' onClick={()=> setNav(!nav)}><AiOutlineInfoCircle size={22} className='mr-5' />OUR STORY</li>
+              <li className='mr-2 flex items-center py-2' onClick={()=> setNav(!nav)}><AiOutlineInfoCircle size={22} className='mr-5' />OUR TEAM</li>
+              <li className='mr-2 flex items-center py-2' onClick={()=> setNav(!nav)}><AiOutlineInfoCircle size={22} className='mr-5' />FACILITIES</li>
+              <li className='mr-2 flex items-center py-2' onClick={()=> setNav(!nav)}><AiOutlineInfoCircle size={22} className='mr-5' />HOW TO ADOPT</li>
               <li className='mr-2 flex items-center py-2' onClick={()=> setNav(!nav)}><AiOutlinePhone  size={22} className='mr-5'/>PROGRAMS</li>
+              <li className='mr-2 flex items-center py-2' onClick={()=> setNav(!nav)}><AiOutlinePhone  size={22} className='mr-5'/>VOLUNTEER</li>
+              <li className='mr-2 flex items-center py-2' onClick={()=> setNav(!nav)}><AiOutlinePhone  size={22} className='mr-5'/>HAPPY END</li>
               <li className='mr-2 flex items-center py-2' onClick={()=> setNav(!nav)}><AiOutlinePhone  size={22} className='mr-5'/>CONTACT US</li>
               <li className='mr-2 flex items-center py-2' onClick={()=> setNav(!nav)}><AiOutlinePhone  size={22} className='mr-5'/>DONATE</li>
              </ul>
@@ -53,14 +58,14 @@ const Navigation = () => {
                             hover:font-[600]'>HOME</li>
             
             <div className='flex justify-center'>
-              <button class="peer mr-4 py-2 text-black">ABOUT US</button>
-        <div class="hidden absolute peer-hover:flex hover:flex  
-         w-auto bg-green-700 text-sm mt-10
-         flex-col bg-white drop-shadow-lg">
-            <a class="px-4 py-3 text-white hover:text-black" href="/">OUR STORY</a>
-            <a class="px-4 py-3 text-white hover:text-black" href="/">OUR TEAM</a>
-            <a class="px-4 py-3 text-white hover:text-black" href="/">FACILITIES</a>
-            <a class="px-4 py-3 text-white hover:text-black" href="/">HOW TO ADOPT</a>
+              <button className="peer mr-4 py-2 text-black">ABOUT US</button>
+        <div className="hidden absolute peer-hover:flex hover:flex  
+         w-auto bg-red-400 text-sm mt-10
+         flex-col drop-shadow-lg">
+            <a className="px-4 py-3 text-white hover:text-black" href="/">OUR STORY</a>
+            <a className="px-4 py-3 text-white hover:text-black" href="/">OUR TEAM</a>
+            <a className="px-4 py-3 text-white hover:text-black" href="/">FACILITIES</a>
+            <a className="px-4 py-3 text-white hover:text-black" href="/">HOW TO ADOPT</a>
         </div>
     </div>
              
