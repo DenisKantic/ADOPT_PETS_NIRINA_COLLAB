@@ -3,7 +3,7 @@ import manWithDog from '../../assets/Programs/man-with-dog.png';
 import manWalkingDog from '../../assets/Programs/man-walking-dog.jpg';
 import Image from './Image';
 import Text from './Text';
-import HowToDonate from './HowToDonate';
+import { useEffect, useRef, } from 'react';
 
 const virtualAdoptionsContent = {
     title: 'VIRTUAL ADOPTIONS PROGRAM',
@@ -27,41 +27,45 @@ function Programs() {
 
     // Define and declare ref's for each element to be animated when in view 
     
-    
 
     return (
-        <div className="bg-gray-300 py-[100px]"> 
+        <div className="bg-slate-50 py-[100px]"> 
             <h1 className="text-7xl text-center font-lilitaOne text-amber-500">Programs</h1>
-            <div className="w-[70%] mx-auto grid grid-cols-2 gap-20 my-[90px] justify-center items-center">
+            <div className="xss:w-[90%] xss:grid-cols-1 md:w-[60%] lg:w-[80%] mx-auto grid lg:grid-cols-2 gap-20 my-[90px] justify-center items-center">
                 <Image 
                 img={childWithDog} 
-                initial={{x: -100, opacity: 0}}
+                initial={window.innerWidth < 1024 ? { y: -100, opacity: 0} : { x: -100, opacity: 0}}
+                gridOrder={'xss:order-1'}
                 />
                 <Text 
                 title={virtualAdoptionsContent.title}
                 content={virtualAdoptionsContent.content}
-                initial={{x: 100, opacity: 0}}
+                initial={window.innerWidth < 1024 ? { y: -100, opacity: 0} : { x: 100, opacity: 0}}
+                gridOrder={'xss:order-2'}
                 />
                 <Text 
                 title={walkingProgramContent.title}
                 content={walkingProgramContent.content}
-                initial={{x: -100, opacity: 0}}
+                initial={window.innerWidth < 1024 ? { y: -100, opacity: 0} : { x: -100, opacity: 0}}
+                gridOrder={'xss:order-4 lg:order-3'}
                 />
                 <Image 
                 img={manWithDog} 
-                initial={{x: 100, opacity: 0}}
+                initial={window.innerWidth < 1024 ? { y: -100, opacity: 0} : { x: 100, opacity: 0}}
+                gridOrder={'xss:order-3 lg:order-4'}
                 />
                 <Image 
                 img={manWalkingDog} 
-                initial={{x: -100, opacity: 0}}
+                initial={window.innerWidth < 1024 ? { y: -100, opacity: 0} : { x: -100, opacity: 0}}
+                gridOrder={'xss:order-5'}
                 />
                 <Text 
                 title={leonsFundContent.title}
                 content={leonsFundContent.content}
-                initial={{x: 100, opacity: 0}}
+                initial={window.innerWidth < 1024 ? { y: -100, opacity: 0} : { x: 100, opacity: 0}}
+                gridOrder={'xss:order-6'}
                 />
             </div>
-            <HowToDonate initial={{y: -100, opacity: 0}}/>
         </div>
     )
 };
