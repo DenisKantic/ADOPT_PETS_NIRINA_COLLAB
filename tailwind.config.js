@@ -5,6 +5,13 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens:{
+        'xss': '270px',
+        'xs': '410px',
+        'sm': '430px',
+        'md': '740px',
+        'mdd': '799px'
+      }
     },
     fontFamily: {
       'helvetica-neue': ['Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
