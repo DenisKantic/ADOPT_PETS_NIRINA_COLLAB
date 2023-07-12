@@ -1,4 +1,3 @@
-import './App.css';
 import Programs from './components/program/Programs';
 
 function App() {
@@ -7,7 +6,7 @@ function App() {
     <Programs />
     </>
      
-    
+   
   );
 }
 

@@ -19,6 +19,8 @@ module.exports = {
       'plantin-headline-condensed': ['Plantin Headline Condensed', 'Helvetica', 'Arial', 'sans-serif'],
       lilitaOne: ['LilitaOne', 'sans-serif'],
     }
+      }
+    },
   },
   plugins: [],
 }
