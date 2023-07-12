@@ -1,12 +1,12 @@
-// import Navigation from "./components/HomePage/Navigation";
-// import Adopt from "./components/Adopt/Adopt";
-import Team from "./components/AboutUs/Team";
+import Programs from './components/program/Programs';
 
 function App() {
   return (
-    <div className="App">
-     <Team />
-    </div>
+    <>
+    <Programs />
+    </>
+     
+   
   );
 }
 
