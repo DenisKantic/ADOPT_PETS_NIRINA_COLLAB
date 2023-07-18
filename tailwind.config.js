@@ -20,7 +20,4 @@ module.exports = {
       lilitaOne: ['LilitaOne', 'sans-serif'],
     }
       }
-    },
-  },
-  plugins: [],
 }
