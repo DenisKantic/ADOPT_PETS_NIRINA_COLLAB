@@ -13,11 +13,6 @@ module.exports = {
         'mdd': '799px'
       }
     },
-    fontFamily: {
-      'helvetica-neue': ['Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
-      'plantin-headline-condensed': ['Plantin Headline Condensed', 'Helvetica', 'Arial', 'sans-serif'],
-      lilitaOne: ['LilitaOne', 'sans-serif'],
-    }
-  },
   plugins: [],
+  }
 }

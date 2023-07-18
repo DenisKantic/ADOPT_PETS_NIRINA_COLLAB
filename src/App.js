@@ -3,8 +3,9 @@ import DogItem from './components/dog-item/DogItem';
 
 function App() {
   return (
-    <div className="App">
-    </div>
+    <>
+    <DogItem />
+    </>
   );
 }
 
