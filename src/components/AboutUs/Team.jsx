@@ -1,5 +1,4 @@
 import React from 'react'
-import Navigation from '../HomePage/Navigation';
 import drone_photo from '../../images/drone_photo.png';
 import ceo from '../../images/emina_ceo.jpg';
 import vana from '../../images/azil_team_photos/vana.jpg';
@@ -24,7 +23,7 @@ const Team = () => {
   return (
        
     <div className='mx-auto w-full bg-[#ffffff]'>
-        <Navigation />
+        
     <div className='w-full relative'>
         <img src={drone_photo} alt="" className='w-full object-cover h-screen' />
         <h1 className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center text-white font-[700] tracking-wider
