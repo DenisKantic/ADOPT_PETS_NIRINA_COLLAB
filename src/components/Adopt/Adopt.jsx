@@ -1,10 +1,11 @@
 import React from 'react'
-import Navigation from '../HomePage/Navigation'
 
 const Adopt = () => {
 
     return (
-    <Navigation />
+    <div>
+        Adopt!
+    </div>
     )
 }
 
