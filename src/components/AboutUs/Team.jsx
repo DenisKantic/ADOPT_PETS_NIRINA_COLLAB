@@ -32,7 +32,11 @@ const Team = () => {
     </div>
 
     <div className='flex justify-center flex-col items-center pt-5 w-auto'>
-        <p className='xss:w-[80%] text-justify text-lg mdd:w-[70%] mdd:text-center mt-[50px]'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+        <p className='xss:w-[80%] text-xl text-justify mdd:w-[70%] text-2xl uppercase tracking-wide mdd:text-center mt-[50px]'>
+        Nirina's team consists of only a few workers, a dozen volunteers and two supervisors. 
+        The team works hard every day to improve the conditions of the asylum, fostering and maintaining 
+        harmony between all the obligations necessary for the functioning of the system. 
+        </p>
 
       <div className='w-[80%] flex flex-col items-center justify-center mt-[100px] tracking-wider'>
         <h1 className='xss:text-[30px] sm:text-[50px] pb-10 font-[500]'>CEO</h1>
@@ -44,7 +48,12 @@ const Team = () => {
 
       <div className='flex flex-col items-center p-5'>
         <h1 className='xss:text-[40px] sm:text-[50px] pb-5 mt-[100px] font-[500] tracking-wider'>WORKERS</h1>
-       <p className='xss:w-[90%] md:w-[70%] p-5 text-center font-[300]'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa excepturi laudantium assumenda molestias id porro numquam maxime veniam sed debitis!</p>
+       <p className='xss:w-[90%] text-lg text-justify md:w-[70%] p-5 md:text-center font-[300] text-xl'>
+       The shelter consists of 5 workers whose duties are to maintain the established system, feed the dogs, 
+       clean their huts every day, bathe them, take them to the vet, build and repair everything necessary to
+        ensure good conditions for the dogs' lives. The asylum is never unsupervised because the workers are 
+        exchanged in on-call shifts. 
+       </p>
         </div>
 
         <div className='xss:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid justify-between items-center w-[90%] p-2'> 
@@ -85,7 +94,14 @@ const Team = () => {
 
       <div className='flex flex-col items-center p-5 tracking-wider'>
         <h1 className='xss:text-[40px] sm:text-[50px] pb-5 mt-[100px] font-[500]'>VOLUNTEERS</h1>
-       <p className='xss:w-[90%] md:w-[70%] text-center font-[300] p-5'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa excepturi laudantium assumenda molestias id porro numquam maxime veniam sed debitis!</p>
+       <p className='xss:w-[90%] text-lg xss:text-justify md:w-[70%] md:text-center md:text-xl font-[300] p-5'>
+       Volunteers have numerous obligations, the fulfillment of which results in a greater number of adoptions. 
+       First of all, they take care of the socialization of the dogs, work on their behavior, 
+       in case of trauma they help the dogs to overcome them, teach them basic things so that they
+        are ready for life in a new home. They walk dogs, give ideas that are implemented into projects, 
+        run social networks, advertise dogs to potential adopters and are available for all possible questions 
+        that parties may have.
+       </p>
         </div>
       <div className='xss:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid justify-between items-center w-[90%] p-2 tracking-wider'> 
 
