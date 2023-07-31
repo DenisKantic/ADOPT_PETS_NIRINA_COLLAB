@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'header': "url('./assets/Header/nirina.jpg')",
+      },
       screens:{
         'xss': '270px',
         'xs': '410px',
