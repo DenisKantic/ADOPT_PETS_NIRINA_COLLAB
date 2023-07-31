@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'header': "url('./assets/Header/nirina.jpg')",
+        'header': "url('./assets/Header/nirina.png')",
       },
       screens:{
         'xss': '270px',
@@ -16,11 +16,6 @@ module.exports = {
         'mdd': '799px',
         'lg': '1024px'
       }
-    },
-    fontFamily: {
-      'helvetica-neue': ['Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
-      'plantin-headline-condensed': ['Plantin Headline Condensed', 'Helvetica', 'Arial', 'sans-serif'],
-      lilitaOne: ['LilitaOne', 'sans-serif'],
     }
-      }
+  }
 }

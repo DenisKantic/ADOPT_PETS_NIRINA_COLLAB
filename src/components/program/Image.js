@@ -25,7 +25,7 @@ function Image(props) {
 
     return (
         <m.div ref={imgReference} className={`w-[100%] ${props.gridOrder}`} initial={props.initial} animate={animationControls} transition={{duration: 0.60, ease: 'easeInOut', delay: 0.40}}>
-            <img src={props.img}/>
+            <img src={props.img} alt='dog_image'/>
         </m.div>
     )
 }

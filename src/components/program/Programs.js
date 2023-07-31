@@ -3,7 +3,7 @@ import manWithDog from '../../assets/Programs/man-with-dog.png';
 import manWalkingDog from '../../assets/Programs/man-walking-dog.jpg';
 import Image from './Image';
 import Text from './Text';
-import { useEffect, useRef, } from 'react';
+
 
 const virtualAdoptionsContent = {
     title: 'VIRTUAL ADOPTIONS PROGRAM',
