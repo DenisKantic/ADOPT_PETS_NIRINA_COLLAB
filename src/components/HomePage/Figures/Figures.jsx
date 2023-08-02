@@ -6,10 +6,13 @@ const Figures = () =>{
         <div className="bg-green-100">
             <div className="py-20">
                 <FiguresAbout />
-                <div className="grid grid-cols-3 mt-[10%] w-[70%] mx-auto">
-                    <Figure number={822.222} about={"Total dogs adopted"}/>
+                <div className="flex flex-row justify-around items-center mt-20 mx-auto
+                                xss:flex-col
+                                md:flex-col md:justify-between w-[90%]
+                                lg:justify-around lg:flex-row w-[70%]">
+                    <Figure number={"cca 3000"} about={"Total dogs adopted"}/>
                     <Figure number={13.2} about={"In food and product donations"} sign={"$"} alias={"million"}/>
-                    <Figure number={12} about={"New inovations in progress"} alias={"Hairy"}/>
+                    <Figure number={"Various programs"} about={"Virtual adoption program, walking program and more... "}/>
                 </div>
             </div>
         </div>

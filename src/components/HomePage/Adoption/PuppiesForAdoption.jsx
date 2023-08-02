@@ -49,9 +49,9 @@ const PuppiesForAdoption = () => {
 
 
     return (
-        <div className="mt-20 w-[70%] mx-auto">
+        <div className="mt-20 w-[90%] mx-auto h-auto">
             <h2 className="text-3xl text-center mb-20">Puppies waiting for adoption</h2>
-            <Swiper
+            <Swiper className='w-full'
             // install Swiper modules
             modules={[Navigation, Pagination, Scrollbar, A11y]}
             spaceBetween={50}
@@ -66,6 +66,14 @@ const PuppiesForAdoption = () => {
                 })
             }
             </Swiper>
+
+            <div className='flex flex-col justify-center items-center mt-10'>
+            <h1 className='text-center
+                           xss:text-xl md:text-3xl'>
+            If you want to adopt your favorite dog, please click the button below
+            </h1>
+            <button className='bg-slate-500 mt-10 w-[10rem] h-[3rem] text-white mb-10'>Adopt</button>
+            </div>
         </div>
     )
 }
