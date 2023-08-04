@@ -8,7 +8,9 @@ import { useState } from 'react';
 import SupportImg from '../../../assets/Support/Support.png';
 import Logo from './Logo';
 
+
 const Support = () => {
+
     const [supportLogo, setSupportLogo] = useState(
         [
             {   id: 1,
@@ -47,6 +49,22 @@ const Support = () => {
                 pagination={{ clickable: true }}
                 onSwiper={(swiper) => console.log(swiper)}
                 onSlideChange={() => console.log('slide change')}
+                breakpoints={{
+                    0: {
+                        slidesPerView: 1,
+                      },
+                      400:{
+                        slidesPerView:2,
+                      },
+                      639: {
+                        slidesPerView: 3,
+                      },
+                      865:{
+                        slidesPerView:4
+                      },
+                      1000:{
+                        slidesPerView:5
+                }}}
                 >{
                     supportLogo.map((supportLogo) => {
                         return <SwiperSlide><Logo img={supportLogo.img} key={supportLogo.id}/></SwiperSlide>
