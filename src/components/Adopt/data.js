@@ -117,5 +117,336 @@ export const data = [
             "https://scontent.ftzl2-1.fna.fbcdn.net/v/t1.6435-9/158330599_1843553912478206_3763373008285969051_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=0debeb&_nc_ohc=x39prXuGSAIAX8uvMP9&_nc_ht=scontent.ftzl2-1.fna&oh=00_AfCJcPLBi0lp-54U1JWxp87SAy7aLSd5ydqRZ6RwV2DC1w&oe=64F4A730",
             "https://scontent.ftzl2-1.fna.fbcdn.net/v/t39.30808-6/239784540_1974918976008365_5192650635620779945_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=0debeb&_nc_ohc=2s1t4fmw71wAX9bW2N-&_nc_ht=scontent.ftzl2-1.fna&oh=00_AfAM_AD6WRNUIJ7H6eSEyPuipXPzC1kxO9Nxvma_H5mwcA&oe=64D2CBD7"
         ]
-    }
+	},
+{
+			id: ,
+			name: , 
+			birth: ,
+			description: ,
+			size: , 
+			gender: , 
+			pictures: [
+				
+				]
+			},
+{
+			id: ,
+			name: , 
+			birth: ,
+			description: ,
+			size: , 
+			gender: , 
+			pictures: [
+				
+				]
+			},
+{
+			id: ,
+			name: , 
+			birth: ,
+			description: ,
+			size: , 
+			gender: , 
+			pictures: [
+				
+				]
+			},
+{
+			id: ,
+			name: , 
+			birth: ,
+			description: ,
+			size: , 
+			gender: , 
+			pictures: [
+				
+				]
+			},
+{
+			id: ,
+			name: , 
+			birth: ,
+			description: ,
+			size: , 
+			gender: , 
+			pictures: [
+				
+				]
+			},
+{
+			id: ,
+			name: , 
+			birth: ,
+			description: ,
+			size: , 
+			gender: , 
+			pictures: [
+				
+				]
+			},
+{
+			id: ,
+			name: , 
+			birth: ,
+			description: ,
+			size: , 
+			gender: , 
+			pictures: [
+				
+				]
+			},
+{
+			id: ,
+			name: , 
+			birth: ,
+			description: ,
+			size: , 
+			gender: , 
+			pictures: [
+				
+				]
+			},
+{
+			id: ,
+			name: , 
+			birth: ,
+			description: ,
+			size: , 
+			gender: , 
+			pictures: [
+				
+				]
+			},
+{
+			id: ,
+			name: , 
+			birth: ,
+			description: ,
+			size: , 
+			gender: , 
+			pictures: [
+				
+				]
+			},
+{
+			id: ,
+			name: , 
+			birth: ,
+			description: ,
+			size: , 
+			gender: , 
+			pictures: [
+				
+				]
+			},
+{
+			id: ,
+			name: , 
+			birth: ,
+			description: ,
+			size: , 
+			gender: , 
+			pictures: [
+				
+				]
+			},
+{
+			id: ,
+			name: , 
+			birth: ,
+			description: ,
+			size: , 
+			gender: , 
+			pictures: [
+				
+				]
+			},
+{
+			id: ,
+			name: , 
+			birth: ,
+			description: ,
+			size: , 
+			gender: , 
+			pictures: [
+				
+				]
+			},
+{
+			id: ,
+			name: , 
+			birth: ,
+			description: ,
+			size: , 
+			gender: , 
+			pictures: [
+				
+				]
+			},
+{
+			id: ,
+			name: , 
+			birth: ,
+			description: ,
+			size: , 
+			gender: , 
+			pictures: [
+				
+				]
+			},
+{
+			id: ,
+			name: , 
+			birth: ,
+			description: ,
+			size: , 
+			gender: , 
+			pictures: [
+				
+				]
+			},
+{
+			id: ,
+			name: , 
+			birth: ,
+			description: ,
+			size: , 
+			gender: , 
+			pictures: [
+				
+				]
+			},
+{
+			id: ,
+			name: , 
+			birth: ,
+			description: ,
+			size: , 
+			gender: , 
+			pictures: [
+				
+				]
+			},
+{
+			id: ,
+			name: , 
+			birth: ,
+			description: ,
+			size: , 
+			gender: , 
+			pictures: [
+				
+				]
+			},
+{
+			id: ,
+			name: , 
+			birth: ,
+			description: ,
+			size: , 
+			gender: , 
+			pictures: [
+				
+				]
+			},
+{
+			id: ,
+			name: , 
+			birth: ,
+			description: ,
+			size: , 
+			gender: , 
+			pictures: [
+				
+				]
+			},
+{
+			id: ,
+			name: , 
+			birth: ,
+			description: ,
+			size: , 
+			gender: , 
+			pictures: [
+				
+				]
+			},
+{
+			id: ,
+			name: , 
+			birth: ,
+			description: ,
+			size: , 
+			gender: , 
+			pictures: [
+				
+				]
+			},
+{
+			id: ,
+			name: , 
+			birth: ,
+			description: ,
+			size: , 
+			gender: , 
+			pictures: [
+				
+				]
+			},
+{
+			id: ,
+			name: , 
+			birth: ,
+			description: ,
+			size: , 
+			gender: , 
+			pictures: [
+				
+				]
+			},
+{
+			id: ,
+			name: , 
+			birth: ,
+			description: ,
+			size: , 
+			gender: , 
+			pictures: [
+				
+				]
+			},
+{
+			id: ,
+			name: , 
+			birth: ,
+			description: ,
+			size: , 
+			gender: , 
+			pictures: [
+				
+				]
+			},
+{
+			id: ,
+			name: , 
+			birth: ,
+			description: ,
+			size: , 
+			gender: , 
+			pictures: [
+				
+				]
+			},
+{
+			id: ,
+			name: , 
+			birth: ,
+			description: ,
+			size: , 
+			gender: "", 
+			pictures: [
+				
+				]
+			}
 ];
+
