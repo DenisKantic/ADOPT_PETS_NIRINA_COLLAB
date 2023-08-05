@@ -118,6 +118,8 @@ export const data = [
             "https://scontent.ftzl2-1.fna.fbcdn.net/v/t39.30808-6/239784540_1974918976008365_5192650635620779945_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=0debeb&_nc_ohc=2s1t4fmw71wAX9bW2N-&_nc_ht=scontent.ftzl2-1.fna&oh=00_AfAM_AD6WRNUIJ7H6eSEyPuipXPzC1kxO9Nxvma_H5mwcA&oe=64D2CBD7"
         ]
 	},
+
+	/*
 {
 			id: ,
 			name: , 
@@ -448,5 +450,7 @@ export const data = [
 				
 				]
 			}
+
+			*/
 ];
 
