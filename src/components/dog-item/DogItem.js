@@ -18,7 +18,7 @@ import 'swiper/css/scrollbar';
 
 
 function DogItem() {
-  const [dogGallery] = useState([
+  const [dogGallery, setDogGallery] = useState([
     dog1, dog2, dog3, dog4, dog5, dog6, dog7
   ]);
 
