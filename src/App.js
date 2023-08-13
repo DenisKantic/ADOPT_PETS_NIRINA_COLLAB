@@ -4,7 +4,7 @@ import HomePage from './components/HomePage/HomePage';
 import Navigation from './components/Navigation/Navigation';
 import HowToDonate from './components/program/HowToDonate';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Adopt from './components/Adopt/Adopt';
+import ComingSoon from './components/Adopt/ComingSoon';
 import Program from './components/program/Programs';
 import Volunteer from './components/Volunteer/Volunteer';
 import HappyEnd from './components/HappyEnd/HappyEnd';
@@ -20,7 +20,7 @@ function App() {
     <Routes>
       <Route path="/" element={<HomePage/>}/>
       <Route path="/About Us" element={<AboutUs />}/>
-      <Route path="/Adopt" element={<Adopt />} />
+      <Route path="/Adopt" element={<ComingSoon />} />
       <Route path="/Programs" element={<Program />} />
       <Route path="/Volunteer" element={<Volunteer />} />
       <Route path="/HappyEnd" element={<HappyEnd />} />
