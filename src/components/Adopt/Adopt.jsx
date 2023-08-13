@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import {PiDogBold} from 'react-icons/pi';
 import {data} from './data';
 
@@ -6,7 +6,8 @@ import {data} from './data';
 const Adopt = () => {
 
     const [dogGender,setDogGender] = useState("male");
- 
+    const [detailed, setDetailed] = useState(false);
+
     return (
     <div className='mx-auto min-h-[120vh]'>
         <div className='w-[90%] mx-auto'>
@@ -61,8 +62,9 @@ const Adopt = () => {
                     const shortexText = item.description;
                    return <div className='pb-10 mx-auto mt-10 
                                            md:w-[350px] ' key={item.id}>
-                    <img className='object-cover rounded-full h-[350px] w-[350px]' src={item.pictures[0]} alt="" />
+                    <img className='object-cover rounded-full h-[320px] w-[320px]' src={item.pictures[0]} alt="" />
                         <div className='flex flex-col items-center justify-center p-4'>
+                            <p>Birth: {item.birth}</p>
                         <h1 className='xss:text-lg md:text-2xl pb-2 text-[#2f474c] font-bold'>{item.name}</h1>
                              <div className='flex flex-col justify-between w-[50%] text-lg'>
                         <div className='flex flex-row justify-between items-center'>
@@ -76,12 +78,9 @@ const Adopt = () => {
                          </div>
                         <p className='text-sm w-full text-center p-2  max-h-[100px] overflow-hidden text-[#7f7f7f]
                                       xss:text-sm md:text-lg'>{shortexText.substring(0,60)}...</p>
-                        <button onClick={()=>console.log(
-                            item.id, "dog name:" + item.name, "dog sex:" + item.sex, "dog size:" + item.size, "photos: " + item.pictures[0]
-                            )} /*
-                            this here is to prove that we can make "modal pop up shit", where we can 
-                            insert swiper and fetch other informations about item, which is clicked*/
-                        className='p-2 text-xl flex flex-row items-center text-[#2f474c] font-bold'>See more <PiDogBold size={25} className='ml-2 text-[#eda27b]' /></button>
+                        <button className='p-2 text-xl flex flex-row items-center text-[#2f474c] font-bold'
+                        onClick={()=>setDetailed(true)} >{console.log(detailed)}
+                        See more <PiDogBold size={25} className='ml-2 text-[#eda27b]' /></button>
                         </div>
                    </div>
                 })}
