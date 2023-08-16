@@ -20,7 +20,7 @@ const Navigation = () => {
   
     window.addEventListener('scroll', changeBackground); // preraditi u useeffect 
 return (
-  <div className={color ? 'w-full mx-auto p-4  bg-[#ecf0f5] border-b-2 ease-in duration-200 fixed top-0 left-0 right-0 z-10' :'w-full mx-auto p-4  bg-[#f1f5f9] ease-out duration-150 sticky top-0 left-0 right-0 z-10'}>
+  <div className={color ? 'w-full mx-auto p-4  bg-[#333333] ease-in duration-200 fixed top-0 left-0 right-0 z-10' :'w-full mx-auto p-4  bg-none ease-out duration-150 fixed top-0 left-0 right-0 z-10'}>
     <div className='w-[90%] mx-auto flex justify-between'>
         <div className='xss: w-full flex items-center md:w-auto'>
             <AiOutlineMenu className='mr-2 cursor-pointer md:hidden' size={25} onClick={()=> setNav(!nav)}></AiOutlineMenu>
@@ -49,10 +49,10 @@ return (
         </div>
 
         <div className='flex items-center justify-center xss:hidden md:flex'> 
-          <ul className='flex flex-row items-center text-[#354a67] text-md'>
+          <ul className='flex flex-row items-center text-white text-sm text-md'>
             <Link to="/"><li className='mr-4 cursor-pointer hover:font-[600]'>HOME</li></Link>
             <div className='flex justify-center'>
-              <button className="peer mr-4 py-2 text-black"><Link to="/About Us">ABOUT US</Link></button>
+              <button className="peer mr-4 py-2"><Link to="/About Us">ABOUT US</Link></button>
               <div className="hidden absolute peer-hover:flex hover:flex  
                 w-auto bg-red-400 text-sm mt-10
                 flex-col drop-shadow-lg">

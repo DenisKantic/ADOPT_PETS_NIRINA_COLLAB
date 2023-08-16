@@ -7,8 +7,9 @@ module.exports = {
     extend: {
       backgroundImage: {
         'header': "url('./assets/Header/nirina.png')",
-        'header2': "url('./assets/Header/dog_shelter2.png')",
-        'figures': "url('./assets/wave2.png')"
+        'header2': "url('./assets/Header/dog4T.jpg')",
+        'figures': "url('./assets/wave2.png')", 
+        'girlDog': "url('./assets/Header/girl_dog2.jpg')"
       },
       screens:{
         'xss': '270px',
