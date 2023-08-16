@@ -1,4 +1,5 @@
 import React from 'react'
+import Donate from '../../../components/Donate/Donate.jsx'
 
 const Figures = () => {
   return (
