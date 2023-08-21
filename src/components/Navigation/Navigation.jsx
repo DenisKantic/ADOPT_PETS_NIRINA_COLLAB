@@ -20,7 +20,7 @@ const Navigation = () => {
   
     window.addEventListener('scroll', changeBackground); // preraditi u useeffect 
 return (
-  <div className={color ? 'w-full mx-auto p-4  bg-[#333333] ease-in duration-200 fixed top-0 left-0 right-0 z-10' :'w-full mx-auto p-4  bg-none ease-out duration-150 fixed top-0 left-0 right-0 z-10'}>
+  <div className={color ? 'w-full mx-auto p-4  bg-[#4c4c4c] ease-in duration-200 fixed top-0 left-0 right-0 z-10' :'w-full mx-auto p-4  bg-none ease-out duration-150 fixed top-0 left-0 right-0 z-10'}>
     <div className='w-[90%] mx-auto flex justify-between'>
         <div className='xss: w-full flex items-center md:w-auto'>
             <AiOutlineMenu className='mr-2 cursor-pointer md:hidden' size={25} onClick={()=> setNav(!nav)}></AiOutlineMenu>
@@ -35,9 +35,7 @@ return (
                   <Link to="/"><li className='mr-2 flex items-center py-2' onClick={()=> setNav(!nav)}><AiOutlineHome size={22} className='mr-5'/>HOME</li></Link>
                   <Link to="About Us"><li className='mr-2 flex items-center py-2' onClick={()=> setNav(!nav)}><AiOutlineInfoCircle size={22} className='mr-5' />ABOUT US</li></Link>
                   <li className='mr-2 flex items-center py-2' onClick={()=> setNav(!nav)}><AiOutlineInfoCircle size={22} className='mr-5' />OUR STORY</li>
-                  <li className='mr-2 flex items-center py-2' onClick={()=> setNav(!nav)}><AiOutlineInfoCircle size={22} className='mr-5' />OUR TEAM</li>
-                  <li className='mr-2 flex items-center py-2' onClick={()=> setNav(!nav)}><AiOutlineInfoCircle size={22} className='mr-5' />FACILITIES</li>
-                  <li className='mr-2 flex items-center py-2' onClick={()=> setNav(!nav)}><AiOutlineInfoCircle size={22} className='mr-5' />HOW TO ADOPT</li>
+                  <li className='mr-2 flex items-center py-2' onClick={()=> setNav(!nav)}><AiOutlineInfoCircle size={22} className='mr-5' />OUR TEAM</li>                  <li className='mr-2 flex items-center py-2' onClick={()=> setNav(!nav)}><AiOutlineInfoCircle size={22} className='mr-5' />HOW TO ADOPT</li>
                   <Link to="/Programs"><li className='mr-2 flex items-center py-2' onClick={()=> setNav(!nav)}><AiOutlinePhone  size={22} className='mr-5'/>PROGRAMS</li></Link>
                   <Link to="/Volunteer"><li className='mr-2 flex items-center py-2' onClick={()=> setNav(!nav)}><AiOutlinePhone  size={22} className='mr-5'/>VOLUNTEER</li></Link>
                   <Link to="/HappyEnd"><li className='mr-2 flex items-center py-2' onClick={()=> setNav(!nav)}><AiOutlinePhone  size={22} className='mr-5'/>HAPPY END</li></Link>
@@ -59,7 +57,6 @@ return (
                   <ul>
                     <li className="px-4 py-3 text-white hover:text-black"><a href="/">OUR STORY</a></li>
                     <Link to="/Team"><li className="px-4 py-3 text-white hover:text-black"><a href="/">OUR TEAM</a></li></Link>
-                    <li className="px-4 py-3 text-white hover:text-black"><a href="/">FACILITIES</a></li>
                     <li className="px-4 py-3 text-white hover:text-black"><a href="/">HOW TO ADOPT</a></li>
                   </ul>
               </div>

@@ -18,8 +18,8 @@ const Image = () => {
                     <p className="text-xl text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, quae! 
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, fugit.
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, aut?
-                    <button className="text-black px-6 py-2 bg-white mt-4 rounded-sm text-[15px]">FIND A PET TO ADOPT</button>
                     </p>
+                    <button className="text-black px-6 py-2 bg-white mt-4 rounded-sm text-[15px]">FIND A PET TO ADOPT</button>
                  </div>
             </div>
         </div>
