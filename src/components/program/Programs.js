@@ -1,6 +1,7 @@
 import childWithDog from '../../assets/Programs/child_and_dog.jpg';
 import manWithDog from '../../assets/Programs/man-with-dog.png';
 import manWalkingDog from '../../assets/Programs/man-walking-dog.jpg';
+import leon from '../../assets/leon.jpg';
 import Image from './Image';
 import Text from './Text';
 
@@ -29,8 +30,12 @@ function Programs() {
     
 
     return (
-        <div className="bg-slate-50 py-[100px]"> 
-            <h1 className="text-7xl text-center font-lilitaOne text-amber-500">Programs</h1>
+        <div className="bg-slate-50"> 
+             <div className='h-[70vh] bg-programDog bg-center mx-auto w-full bg-cover bg-no-repeat flex items-center justify-center'>
+                <h1 className='text-xl text-white font-bold'>Home - Programs</h1>
+            </div>
+
+            <h1 className="text-7xl text-center font-lilitaOne text-amber-500 mt-10">Programs</h1>
             <div className="xss:w-[90%] xss:grid-cols-1 md:w-[60%] lg:w-[80%] mx-auto grid lg:grid-cols-2 gap-20 my-[90px] justify-center items-center">
                 <Image 
                 img={childWithDog} 
@@ -55,7 +60,7 @@ function Programs() {
                 gridOrder={'xss:order-3 lg:order-4'}
                 />
                 <Image 
-                img={manWalkingDog} 
+                img={leon} 
                 initial={window.innerWidth < 1024 ? { y: -100, opacity: 0} : { x: -100, opacity: 0}}
                 gridOrder={'xss:order-5'}
                 />

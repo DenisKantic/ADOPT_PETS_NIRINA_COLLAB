@@ -10,7 +10,8 @@ module.exports = {
         'header2': "url('./assets/Header/dog4T.jpg')",
         'figures': "url('./assets/wave2.png')", 
         'girlDog': "url('./assets/Header/girl_dog2.jpg')",
-        'adoptSoon': "url('./assets/adopt2E.jpg')"
+        'adoptSoon': "url('./assets/adopt2E.jpg')",
+        'programDog': "url('./assets/adopt1E.jpg')"
       },
       screens:{
         'xss': '270px',
