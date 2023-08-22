@@ -26,11 +26,11 @@ return (
   <div className={color ? 'w-full mx-auto p-4 bg-[#4c4c4c] ease-in duration-200 fixed top-0 left-0 right-0 z-10' :'w-full mx-auto p-4 bg-none ease-out duration-150 fixed top-0 left-0 right-0 z-10'}>
     <div className='w-[90%] mx-auto flex justify-between'>
         <div className='xss: w-full flex items-center md:w-auto'>
-            <AiOutlineMenu className='mr-2 cursor-pointer md:hidden text-white' size={25} onClick={()=> setNav(!nav)}></AiOutlineMenu>
+            <AiOutlineMenu className='mr-2 cursor-pointer mdd:hidden text-white' size={25} onClick={()=> setNav(!nav)}></AiOutlineMenu>
             <h1 className='xss: ml-5 text-md md:hidden cursor-default text-white'>NIRINA ANIMAL SHELTER</h1>
             <h1 className='xss:hidden md:block text-lg cursor-default text-white'>NIRINA </h1>
             <div className={ nav ? 'bg-black/80 w-full fixed h-screen z-10 top-0 left-0 duration-200' : 'fixed'}>
-              <div className={nav ? 'bg-white w-[280px] fixed top-0 left-0 z-10 h-screen duration-200' : 'fixed left-[-100%] w-[-300px] top-0 duration-300'}>
+              <div className={nav ? 'bg-white xss:w-[280px] md:w-[350px] fixed top-0 left-0 z-10 h-screen duration-200' : 'fixed left-[-100%] w-[-300px] top-0 duration-300'}>
                 <AiOutlineClose className='absolute top-4 right-4 cursor-pointer' 
                   onClick={()=> setNav(!nav)}  size={30}></AiOutlineClose> 
                 <h1 className='text-lg text-[#354a67] p-4'>NIRINA ANIMAL SHELTER</h1>
@@ -50,7 +50,7 @@ return (
             </div>
         </div>
 
-        <div className='flex items-center justify-center xss:hidden md:flex'> 
+        <div className='flex items-center justify-center xss:hidden mdd:flex'> 
           <ul className='flex flex-row items-center text-white text-sm text-md'>
             <Link to="/"><li className='mr-4 cursor-pointer hover:font-[600]'>HOME</li></Link>
             <div className='flex justify-center'>

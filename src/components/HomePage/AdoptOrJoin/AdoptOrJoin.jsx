@@ -1,6 +1,6 @@
 const AdoptOrJoin = () => {
     return (
-        <div className="bg-slate-100 bg-girlDog bg-center bg-no-repeat h-[60vh] w-full flex justify-center items-center text-white
+        <div className="bg-slate-100 bg-girlDog xss:bg-center md:bg-fixed bg-no-repeat h-[60vh] w-full flex justify-center items-center text-white
                         xss:h-screen md:h-[60vh]">
             <div className="w-[70%] mx-auto mt-20 py-10">
                 <h3 className="text-center mb-5 text-3xl">Want to join our team and support our best friends? </h3> 

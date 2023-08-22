@@ -1,6 +1,6 @@
 const Image = () => {
     return (
-        <div className="bg-header2 bg-cover bg-fixed bg-no-repeat flex flex-col mx-auto justify-center h-screen w-full">
+        <div className="bg-header2 bg-cover xss:bg-center md:bg-fixed bg-no-repeat flex flex-col mx-auto justify-center h-screen w-full">
             <div className="mx-auto
                             xss:w-[90%]
                             md:w-[80%]">
