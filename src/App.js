@@ -2,7 +2,6 @@
 import AboutUs from './components/AboutUs/AboutUs';
 import HomePage from './components/HomePage/HomePage';
 import Navigation from './components/Navigation/Navigation';
-import HowToDonate from './components/program/HowToDonate';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ComingSoon from './components/Adopt/ComingSoon';
 import Program from './components/program/Programs';

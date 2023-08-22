@@ -1,6 +1,6 @@
 const Image = () => {
     return (
-        <div className="bg-header2 bg-cover bg-fixed bg-no-repeat flex flex-col mx-auto justify-center h-screen w-full">
+        <div className="bg-header2 bg-cover xss:bg-center md:bg-fixed bg-no-repeat flex flex-col mx-auto justify-center h-screen w-full">
             <div className="mx-auto
                             xss:w-[90%]
                             md:w-[80%]">
@@ -18,8 +18,8 @@ const Image = () => {
                     <p className="text-xl text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, quae! 
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, fugit.
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, aut?
-                    <button className="text-black px-6 py-2 bg-white mt-4 rounded-sm text-[15px]">FIND A PET TO ADOPT</button>
                     </p>
+                    <button className="text-black px-6 py-2 bg-white mt-4 rounded-sm text-[15px]">FIND A PET TO ADOPT</button>
                  </div>
             </div>
         </div>
