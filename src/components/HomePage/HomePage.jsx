@@ -4,8 +4,17 @@ import Figures from "./Figures/Figures.jsx";
 import Support from "./Support/Support";
 import PuppiesForAdoption from "./Adoption/PuppiesForAdoption";
 import AdoptOrJoin from "./AdoptOrJoin/AdoptOrJoin";
+import { useEffect } from "react";
 
 const HomePage = () => {
+
+    const scrollToTop = () => {
+        window.scrollTo({ top: 0, left: 0});
+      };
+
+      useEffect(()=>{
+        scrollToTop();
+      }, [])
     return (
         <>
            <Header />

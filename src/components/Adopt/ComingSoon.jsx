@@ -1,6 +1,16 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 const ComingSoon = () => {
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, left: 0});
+  };
+
+  useEffect(()=>{
+    scrollToTop();
+  },[])
+
+  
   return (
     <div className='h-screen w-full'>
       <div className='h-[70vh] bg-adoptSoon bg-center mx-auto w-full bg-cover bg-no-repeat flex items-center justify-center'>

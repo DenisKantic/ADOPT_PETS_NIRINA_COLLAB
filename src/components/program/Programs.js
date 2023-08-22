@@ -4,7 +4,12 @@ import manWalkingDog from '../../assets/Programs/man-walking-dog.jpg';
 import leon from '../../assets/leon.jpg';
 import Image from './Image';
 import Text from './Text';
+import { useEffect } from 'react';
 
+
+const scrollToTop = () => {
+    window.scrollTo({ top: 0, left: 0});
+  };
 
 const virtualAdoptionsContent = {
     title: 'VIRTUAL ADOPTIONS PROGRAM',
@@ -25,6 +30,10 @@ const virtualAdoptionsContent = {
   };
 
 function Programs() {
+
+    useEffect(()=>{
+        scrollToTop();
+    },[]);
 
     // Define and declare ref's for each element to be animated when in view 
     
