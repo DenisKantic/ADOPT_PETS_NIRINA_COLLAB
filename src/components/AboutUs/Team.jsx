@@ -1,5 +1,5 @@
 import React from 'react'
-import drone_photo from '../../images/drone_photo.png';
+import team from '../../images/azil_team_photos/team.webp'
 import ceo from '../../images/emina_ceo.jpg';
 import vana from '../../images/azil_team_photos/vana.webp';
 import lejla from '../../images/azil_team_photos/lejla.webp';
@@ -18,16 +18,20 @@ import ivan from '../../images/azil_team_photos/ivan.webp';
 import denis from '../../images/denis.jpg';
 import ismar from '../../images/ismar.jpg';
 import '../../assets/fonts.css';
+import {AiOutlineArrowRight} from 'react-icons/ai'
 
 const Team = () => {
   return (
        
     <div className='mx-auto w-full bg-[#ffffff]'>
         
+        {/*             <div className='h-[70vh] bg-programDog bg-center mx-auto w-full bg-cover bg-no-repeat flex items-center justify-center'>
+ */}
+
     <div className='w-full relative'>
-        <img src={drone_photo} alt="" className='w-full object-cover h-screen' />
-        <h1 className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center text-white font-[700] tracking-wider
-                      xss:text-[90px] md:text-[140px]'>OUR TEAM</h1>
+      <div className='h-[70vh] bg-team bg-center mx-auto w-full bg-cover bg-no-repeat flex items-center justify-center'>
+          <h1 className='text-3xl text-white font-bold flex flex-row items-center'>Home  <AiOutlineArrowRight className='mx-2' size={25} /> Our Team</h1>
+      </div>
     </div>
 
     <div className='flex justify-center flex-col items-center pt-5 w-auto'>

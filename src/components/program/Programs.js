@@ -5,6 +5,7 @@ import leon from '../../assets/leon.jpg';
 import Image from './Image';
 import Text from './Text';
 import { useEffect } from 'react';
+import {AiOutlineArrowRight} from 'react-icons/ai'
 
 
 const scrollToTop = () => {
@@ -41,7 +42,7 @@ function Programs() {
     return (
         <div className="bg-slate-50"> 
              <div className='h-[70vh] bg-programDog bg-center mx-auto w-full bg-cover bg-no-repeat flex items-center justify-center'>
-                <h1 className='text-xl text-white font-bold'>Home - Programs</h1>
+             <h1 className='text-3xl text-white font-bold flex flex-row items-center'>Home  <AiOutlineArrowRight className='mx-2' size={25} /> Programs</h1>
             </div>
 
             <h1 className="text-7xl text-center font-lilitaOne text-amber-500 mt-10">Programs</h1>

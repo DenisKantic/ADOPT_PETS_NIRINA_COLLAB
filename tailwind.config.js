@@ -11,7 +11,8 @@ module.exports = {
         'figures': "url('./assets/wave2.png')", 
         'girlDog': "url('./assets/Header/girl_dog2.jpg')",
         'adoptSoon': "url('./assets/adopt2E.jpg')",
-        'programDog': "url('./assets/adopt1E.jpg')"
+        'programDog': "url('./assets/adopt1E.jpg')",
+        'team': "url('./assets/team.webp')"
       },
       screens:{
         'xss': '270px',

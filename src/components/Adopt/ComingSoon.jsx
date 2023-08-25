@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+import {AiOutlineArrowRight} from 'react-icons/ai';
 
 const ComingSoon = () => {
 
@@ -14,7 +15,7 @@ const ComingSoon = () => {
   return (
     <div className='h-screen w-full'>
       <div className='h-[70vh] bg-adoptSoon bg-center mx-auto w-full bg-cover bg-no-repeat flex items-center justify-center'>
-        <h1 className='text-xl text-white font-bold'>Home - Adopt</h1>
+      <h1 className='text-3xl text-white font-bold flex flex-row items-center'>Home  <AiOutlineArrowRight className='mx-2' size={25} /> Adopt</h1>
       </div>
 
        <div className='h-[40vh] flex flex-col justify-center items-center'>
