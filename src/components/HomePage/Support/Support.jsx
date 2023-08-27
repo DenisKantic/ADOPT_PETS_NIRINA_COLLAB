@@ -7,9 +7,15 @@ import 'swiper/css/scrollbar';
 import { useState } from 'react';
 import SupportImg from '../../../assets/Support/Support.png';
 import Logo from './Logo';
-
+import { useEffect, useRef } from "react";
+import { motion as m, useAnimation, useInView} from 'framer-motion';
 
 const Support = () => {
+
+    const refTitle = useRef(null);
+    const isTitleInView = useInView(refTitle, {once: true});
+    const animationControls = useAnimation();
+
 
     const [supportLogo, setSupportLogo] = useState(
         [
@@ -35,11 +41,23 @@ const Support = () => {
         ]
     )
 
+    useEffect(()=> {
+        if (isTitleInView) {
+            animationControls.start(
+               {
+                y: 0,
+                opacity: 1
+               }
+            )
+        }
+    }, [isTitleInView, animationControls])
+
+
 
     return (
         <div>
             <div className="mt-20 w-[70%] mx-auto">
-                <h2 className="text-3xl text-center mb-20">Who supports us</h2>
+                <m.h2 ref={refTitle} initial={{y: '-100%', opacity: 0}} animate={animationControls} transition={{duration: 0.25, ease: 'easeInOut', delay: 0.60}} className="text-3xl text-center mb-20">Who supports us</m.h2>
                 <Swiper
                 // install Swiper modules
                 modules={[Navigation, Pagination, Scrollbar, A11y]}
@@ -66,8 +84,9 @@ const Support = () => {
                         slidesPerView:5
                 }}}
                 >{
-                    supportLogo.map((supportLogo) => {
-                        return <SwiperSlide><Logo img={supportLogo.img} key={supportLogo.id}/></SwiperSlide>
+                    supportLogo.map((supportLogo, index) => {
+                        console.log(index);
+                        return <SwiperSlide key={supportLogo.id}><Logo img={supportLogo.img} initialX={250 / index} delay={supportLogo.id * 0.2}/></SwiperSlide>
                     })
                 }
                 </Swiper>
