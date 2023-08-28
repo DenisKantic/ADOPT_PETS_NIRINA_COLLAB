@@ -1,3 +1,6 @@
+import { useEffect } from "react";
+import { motion as m} from 'framer-motion';
+
 const Image = () => {
     return (
         <div className="bg-header2 bg-cover xss:bg-center md:bg-fixed bg-no-repeat flex flex-col mx-auto justify-center h-screen w-full">
@@ -10,16 +13,16 @@ const Image = () => {
                                 lg:w-[65%]
                                 xl:w-[45%]
                                 mdd:items-start">
-                    <h1 className="text-black font-bold text-white
+                    <m.h1 initial={{opacity: 0, x: '-50%'}} animate={{opacity: 1, x: 0}} transition={{duration: 0.60, ease: 'easeInOut', delay: 0.40}} className="text-black font-bold text-white
                                     xss:text-[40px] xs:text-[50px] md:text-[40px] mdd:text-[60px]">
                     ADOPT US.   <br />
                     WE NEED YOUR HELP. 
-                    </h1>
-                    <p className="text-xl text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, quae! 
+                    </m.h1>
+                    <m.p initial={{opacity: 0, x: '-50%'}} animate={{opacity: 1, x: 0}} transition={{duration: 0.60, ease: 'easeInOut', delay: 0.60}} className="text-xl text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, quae! 
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, fugit.
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, aut?
-                    </p>
-                    <button className="text-black px-6 py-2 bg-white mt-4 rounded-sm text-[15px]">FIND A PET TO ADOPT</button>
+                    </m.p>
+                    <m.button initial={{opacity: 0, x: '-50%'}} animate={{opacity: 1, x: 0}} transition={{duration: 0.60, ease: 'easeInOut', delay: 0.80}} className="text-black px-6 py-2 bg-white mt-4 rounded-sm text-[15px]">FIND A PET TO ADOPT</m.button>
                  </div>
             </div>
         </div>
