@@ -30,13 +30,13 @@ return (
     <div className='w-[90%] mx-auto flex justify-between'>
         <div className='xss: w-full flex items-center md:w-auto'>
             <AiOutlineMenu className='mr-2 cursor-pointer mdd:hidden text-white' size={25} onClick={()=> setNav(!nav)}></AiOutlineMenu>
-            <h1 className='xss: ml-5 text-md md:hidden cursor-default text-white'>NIRINA ANIMAL SHELTER</h1>
-            <h1 className='xss:hidden md:block text-lg cursor-default text-white'>NIRINA ANIMAL SHELTER </h1>
+            <h1 className='xss: ml-5 text-md md:hidden cursor-default text-white'>NIRINA DOG SHELTER</h1>
+            <h1 className='xss:hidden md:block text-lg cursor-default text-white'>NIRINA DOG SHELTER </h1>
             <div className={ nav ? 'bg-black/80 w-full fixed h-screen z-10 top-0 left-0 duration-200' : 'fixed'}>
               <div className={nav ? 'bg-white xss:w-[280px] md:w-[350px] fixed top-0 left-0 z-10 h-screen duration-200' : 'fixed left-[-100%] w-[-300px] top-0 duration-300'}>
                 <AiOutlineClose className='absolute top-4 right-4 cursor-pointer' 
                   onClick={()=> setNav(!nav)}  size={30}></AiOutlineClose> 
-                <h1 className='text-lg text-[#354a67] p-4'>NIRINA ANIMAL SHELTER</h1>
+                <h1 className='text-lg text-[#354a67] p-4'>NIRINA DOG SHELTER</h1>
                 <ul className='flex flex-col items-start p-4 text-black text-lg mt-[50px]'>
                   <Link to="/"><li className='mr-2 flex items-center py-2' onClick={()=> setNav(!nav)}><AiOutlineHome size={22} className='mr-5'/>HOME</li></Link>
                   <Link to="About Us"><li className='mr-2 flex items-center py-2' onClick={()=> setNav(!nav)}><AiOutlineQuestionCircle size={22} className='mr-5' />ABOUT US</li></Link>
