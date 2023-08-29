@@ -52,7 +52,7 @@ const AboutSection = () => {
     }, [isInViewTitle, isInViewAboutLongText, isInViewShortText, isInViewButton, animationControls]);
 
     return (
-        <div className="mx-auto w-[90%] mt-10">
+        <div className="mx-auto w-[90%] mt-10" id="aboutUs">
             <div className="mb-10">
                 <m.h1  ref={refTitle} initial={{y: '-50%', opacity: 0}} animate={animationControls} transition={{duration: 0.25, ease: 'easeInOut', delay: 0.60}} className="text-center text-4xl mb-10 text-center mx-auto
                                 xss:text-2xl xss:font-bold xss:w-[90%] 

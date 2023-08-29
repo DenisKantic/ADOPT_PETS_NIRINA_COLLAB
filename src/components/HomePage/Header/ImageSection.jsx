@@ -18,11 +18,10 @@ const Image = () => {
                     ADOPT US.   <br />
                     WE NEED YOUR HELP. 
                     </m.h1>
-                    <m.p initial={{opacity: 0, x: '-50%'}} animate={{opacity: 1, x: 0}} transition={{duration: 0.80, ease: 'easeInOut', delay: 0.60}} className="text-xl text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, quae! 
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, fugit.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, aut?
+                    <m.p initial={{opacity: 0, x: '-50%'}} animate={{opacity: 1, x: 0}} transition={{duration: 0.80, ease: 'easeInOut', delay: 0.60}} className="text-xl text-white">
+                    In our Dog Shelter, your main target is to make your four-legged friends happy. Pet them, hand out treats, play with toys - and they will pay you back with great trust. Get to know the animals well enough to find them the best home! 
                     </m.p>
-                    <m.button initial={{opacity: 0, x: '-50%'}} animate={{opacity: 1, x: 0}} transition={{duration: 0.80, ease: 'easeInOut', delay: 0.80}} className="text-black px-6 py-2 bg-white mt-4 rounded-sm text-[15px]">FIND A PET TO ADOPT</m.button>
+                    {/* <m.button initial={{opacity: 0, x: '-50%'}} animate={{opacity: 1, x: 0}} transition={{duration: 0.80, ease: 'easeInOut', delay: 0.80}} className="text-black px-6 py-2 bg-white mt-4 rounded-sm text-[15px]"><a href="#aboutUs">Explore more about us!</a></m.button> */}
                  </div>
             </div>
         </div>

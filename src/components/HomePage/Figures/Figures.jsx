@@ -2,6 +2,9 @@ import React from 'react'
 import Donate from '../../../components/Donate/Donate.jsx'
 import { useEffect, useRef } from "react";
 import { motion as m, useAnimation, useInView} from 'framer-motion';
+import {FaDog} from 'react-icons/fa';
+import {AiFillDollarCircle} from 'react-icons/ai';
+import {PiDogBold} from 'react-icons/pi';
 
 const Figures = () => {
 
@@ -57,32 +60,36 @@ const Figures = () => {
         <div className='mx-auto min-h-[40vh] pt-10'>
             <m.div initial={{y: '-150%', opacity: 0}} animate={animationControls} transition={{duration: 0.25, ease: 'easeInOut', delay: 0.60}} ref={refTitle} className="text-center">
                 <h2 className="text-2xl font-bold">11 years of impact</h2>
+                
                 <p className="text-lg p-2">We fetches some numbers for you</p>
             </m.div>
 
 
-            <div className='bg-figures w-[100%] bg-cover bg-no-repeat pt-8'> {/* background picture */}
-            <div className='flex flex-row justify-around items-center min-h-[30vh] w-[90%] mx-auto text-center mt-20
+            <div className='w-[100%]  bg-purple-400'> 
+            <div className='flex flex-row justify-around items-center min-h-[30vh] w-[90%] mx-auto text-center mt-10
                             xss:flex-col
                             md:flex-row'>
 
             {/*card */}
-            <m.div ref={refPetsAdopted} initial={{x: '-100%', opacity: 0}} animate={animationControls} transition={{duration: 0.25, ease: 'easeInOut', delay: 0.60}} className=''>
-                <h1 className='text-4xl p-4'>cca 3000</h1>
+            <m.div ref={refPetsAdopted} initial={{x: '-100%', opacity: 0}} animate={animationControls} transition={{duration: 0.25, ease: 'easeInOut', delay: 0.60}} className='flex flex-col items-center justify-center'>
+                <h1 className='text-3xl p-4'>cca 3000</h1>
                 <p className='text-xl p-4'>Total pets adopted</p>
+                <FaDog size={50} />
                 <button className='py-2 bg-slate-200 px-2 mt-4'>Boop for info!</button>
             </m.div>
 
-            <m.div ref={refDonations} initial={{x: '-150%', opacity: 0}} animate={animationControls} transition={{duration: 0.25, ease: 'easeInOut', delay: 0.70}} className=''>
-                <h1 className='text-4xl p-4'>$ thousands</h1>
+            <m.div ref={refDonations} initial={{x: '-150%', opacity: 0}} animate={animationControls} transition={{duration: 0.25, ease: 'easeInOut', delay: 0.70}} className='flex flex-col items-center justify-center'>
+                <h1 className='text-3xl p-4'>$ thousands</h1>
                 <p className='text-xl p-4'>in food & products donation</p>
+                <AiFillDollarCircle  size={50}/>
                 <button className='py-2 bg-slate-200 px-2 mt-4'>Boop for info!</button>
             </m.div>
 
 
-            <m.div ref={refPrograms} initial={{x: '-200%', opacity: 0}} animate={animationControls} transition={{duration: 0.25, ease: 'easeInOut', delay: 0.80}} className=''>
-                <h1 className='text-4xl p-4'>Various programs</h1>
+            <m.div ref={refPrograms} initial={{x: '-200%', opacity: 0}} animate={animationControls} transition={{duration: 0.25, ease: 'easeInOut', delay: 0.80}} className='flex flex-col items-center justify-center'>
+                <h1 className='text-3xl p-4'>Various programs</h1>
                 <p className='text-xl p-4'>The Walking program and more...</p>
+                <PiDogBold size={50} />
                 <button className='py-2 bg-slate-200 px-2 mt-4'>Boop for info!</button>
             </m.div>
 
