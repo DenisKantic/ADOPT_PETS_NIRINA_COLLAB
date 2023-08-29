@@ -18,7 +18,7 @@ const Logo = (props) => {
     }, [isLogoInView, animationControls]);
 
     return (
-        <m.div ref={refLogo} initial={{x: props.initialX, opacity: 0}} animate={animationControls} transition={{duration: 0.25, ease: 'easeInOut', delay: props.delay}}><img src={props.img} alt="logo"/></m.div>
+        <m.div ref={refLogo} initial={{x: props.initialX, opacity: 0}} animate={animationControls} transition={{duration: 0.25, ease: 'easeInOut', delay: props.delay}}><img className="h-[150px] w-full object-contain" src={props.img} alt="logo"/></m.div>
     )
 };
 

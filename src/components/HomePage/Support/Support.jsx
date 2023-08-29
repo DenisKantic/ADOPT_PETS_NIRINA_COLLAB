@@ -6,6 +6,9 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import { useState } from 'react';
 import SupportImg from '../../../assets/Support/Support.png';
+import Reset from '../../../assets/Support/Logo_RRSET-IN-removebg-preview.png'
+import Tuzla from '../../../assets/Support/tuzla.png'
+import Bosniak from '../../../assets/Support/bosniak.png';
 import Logo from './Logo';
 import { useEffect, useRef } from "react";
 import { motion as m, useAnimation, useInView} from 'framer-motion';
@@ -24,19 +27,15 @@ const Support = () => {
             },
             {
                 id: 2,
-                img: SupportImg
+                img: Reset
             },
             {
                 id: 3,
-                img: SupportImg
+                img: Tuzla
             },
             {
                 id: 4,
-                img: SupportImg
-            },
-            {
-                id: 5,
-                img: SupportImg
+                img: Bosniak
             }
         ]
     )
@@ -58,7 +57,7 @@ const Support = () => {
         <div>
             <div className="mt-20 w-[70%] mx-auto">
                 <m.h2 ref={refTitle} initial={{y: '-100%', opacity: 0}} animate={animationControls} transition={{duration: 0.25, ease: 'easeInOut', delay: 0.60}} className="text-3xl text-center mb-20">Who supports us</m.h2>
-                <Swiper
+                <Swiper className='h-[25vh]'
                 // install Swiper modules
                 modules={[Navigation, Pagination, Scrollbar, A11y]}
                 spaceBetween={50}
@@ -79,10 +78,8 @@ const Support = () => {
                       },
                       865:{
                         slidesPerView:4
-                      },
-                      1000:{
-                        slidesPerView:5
-                }}}
+                      }
+                    }}
                 >{
                     supportLogo.map((supportLogo, index) => {
                         console.log(index);

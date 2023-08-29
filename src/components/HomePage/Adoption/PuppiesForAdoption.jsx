@@ -95,6 +95,20 @@ const PuppiesForAdoption = () => {
             pagination={{ clickable: true }}
             onSwiper={(swiper) => console.log(swiper)}
             onSlideChange={() => console.log('slide change')}
+            breakpoints={{
+                0: {
+                    slidesPerView: 1,
+                  },
+                  400:{
+                    slidesPerView:2,
+                  },
+                  639: {
+                    slidesPerView: 3,
+                  },
+                  865:{
+                    slidesPerView:4
+                  }
+                }}
             >{
                 puppy.map((puppy, index) => {
                     return <SwiperSlide><Puppy img={puppy.img} key={puppy.id} birth={puppy.birth} about={puppy.about} initialX={250 / index} delay={puppy.id * 0.2}/></SwiperSlide>
