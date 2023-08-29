@@ -27,6 +27,7 @@ const PuppiesForAdoption = () => {
     const [puppy, setPuppy] = useState(
         [
             {   id: 1,
+                name: "example",
                 img: Puppy1,
                 birth: '5/5/2019',
                 about: 'Cutest puppy ever, if i head a house i would adopt it'

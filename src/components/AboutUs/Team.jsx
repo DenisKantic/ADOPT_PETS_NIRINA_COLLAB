@@ -29,12 +29,15 @@ const Team = () => {
  */}
 
     <div className='w-full relative'>
-      <div className='h-[70vh] bg-team bg-center mx-auto w-full bg-cover bg-no-repeat flex items-center justify-center'>
+      <div className='h-[70vh] bg-team bg-center mx-auto w-full bg-cover bg-no-repeat flex items-center justify-center
+                      xss:h-screen
+                      md:h-[70vh]'>
           <h1 className='text-3xl text-white font-bold flex flex-row items-center'>Home  <AiOutlineArrowRight className='mx-2' size={25} /> Our Team</h1>
       </div>
+      <h1 className='text-center text-[60px] pt-5'>OUR TEAM</h1>
     </div>
 
-    <div className='flex justify-center flex-col items-center pt-5 w-auto'>
+    <div className='flex justify-center flex-col items-center  w-auto'>
         <p className='xss:w-[80%] text-xl text-justify mdd:w-[70%] text-2xl uppercase tracking-wide mdd:text-center mt-[50px]'>
         Nirina's team consists of only a few workers, a dozen volunteers and two supervisors. 
         The team works hard every day to improve the conditions of the asylum, fostering and maintaining 
