@@ -6,7 +6,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import { useState } from 'react';
 import SupportImg from '../../../assets/Support/Support.png';
-import Reset from '../../../assets/Support/Logo_RRSET-IN-removebg-preview.png'
+import Reset from '../../../assets/Support/reset.png'
 import Tuzla from '../../../assets/Support/tuzla.png'
 import Bosniak from '../../../assets/Support/bosniak.png';
 import Logo from './Logo';
