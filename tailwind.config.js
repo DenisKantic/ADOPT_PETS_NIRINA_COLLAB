@@ -6,13 +6,13 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'header2': "url('./assets/Header/dog4T.webp')",
+        'header2': "url('./assets/Header/dogH.webp')",
         'figures': "url('./assets/wave2.png')", 
-        'girlDog': "url('./assets/Header/girl_dog2.jpg')",
+        'girlDog2': "url('./assets/Header/girl_dog2.jpg')",
         'adoptSoon': "url('./assets/adopt2E.jpg')",
         'programDog': "url('./assets/adopt1E.jpg')",
-        'girlDog': "url('./assets/girl_dog.webp')",
-        'team': "url('./assets/team.webp')"
+        'team': "url('./assets/team.webp')",
+        'girlDog': "url('./assets/Header/girl_dog.jpg')"
       },
       screens:{
         'xss': '270px',

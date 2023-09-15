@@ -49,7 +49,7 @@ const AdoptOrJoin = () => {
 
 
     return (
-        <div className="bg-slate-100 bg-girlDog xss:bg-center md:bg-fixed bg-no-repeat h-[60vh] w-full flex justify-center items-center text-white
+        <div className="bg-slate-100 bg-girlDog2 xss:bg-center md:bg-fixed bg-no-repeat h-[60vh] w-full flex justify-center items-center text-white
                         xss:h-screen md:h-[60vh]">
             <div className="w-[70%] mx-auto mt-20 py-10">
                 <m.h3 ref={refTitle} initial={{y: '-100%', opacity: 0}} animate={animationControls} transition={{duration: 0.25, ease: 'easeInOut', delay: 0.60}} className="text-center mb-5 text-3xl">Want to join our team and support our best friends? </m.h3> 

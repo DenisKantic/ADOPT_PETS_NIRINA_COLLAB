@@ -84,19 +84,19 @@ const PuppiesForAdoption = () => {
     }, [isAboutButtonInView, isButtonInView, animationControls, isTitleInView]);
 
     return (
-        <div className="mt-20 w-[90%] mx-auto h-auto">
+        <div className="mt-20 w-[90%] mx-auto h-auto p-5">
             <m.h2 ref={refTitle} initial={{y: '-50%', opacity: 0}} animate={animationControls} transition={{duration: 0.25, ease: 'easeInOut', delay: 0.60}} className="text-3xl text-center mb-20">Puppies waiting for adoption</m.h2>
             <Swiper className='w-full'
             // install Swiper modules
             modules={[Navigation, Pagination, Scrollbar, A11y]}
-            spaceBetween={50}
+        
             slidesPerView={4}
             navigation
             pagination={{ clickable: true }}
             onSwiper={(swiper) => console.log(swiper)}
             onSlideChange={() => console.log('slide change')}
             breakpoints={{
-                0: {
+                   0: {
                     slidesPerView: 1,
                   },
                   400:{
@@ -104,9 +104,6 @@ const PuppiesForAdoption = () => {
                   },
                   639: {
                     slidesPerView: 3,
-                  },
-                  865:{
-                    slidesPerView:4
                   }
                 }}
             >{
