@@ -13,7 +13,7 @@ const Image = () => {
                                 lg:w-[65%]
                                 xl:w-[45%]
                                 mdd:items-start">
-                    <m.h1 initial={{opacity: 0, x: '-50%'}} animate={{opacity: 1, x: 0}} transition={{duration: 0.80, ease: 'easeInOut', delay: 0.40}} className="text-black font-bold text-white
+                    <m.h1 initial={{opacity: 0, x: '-50%'}} animate={{opacity: 1, x: 0}} transition={{duration: 0.80, ease: 'easeInOut', delay: 0.40}} className="font-bold text-white
                                     xss:text-[40px] xs:text-[50px] md:text-[40px] mdd:text-[60px]">
                     ADOPT US.   <br />
                     WE NEED YOUR HELP. 
