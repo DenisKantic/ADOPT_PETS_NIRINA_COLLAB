@@ -29,13 +29,13 @@ const Volunteer = () => {
 
           <h1 className="text-4xl text-center mt-10">What do we do at the shelter?</h1>
      
-      <div className="grid mx-auto w-[90%] mt-10 bg-purple-400 
+      <div className="grid mx-auto w-[90%] mt-10 
                       xss:grid-cols-1
-                      md:grid-cols-2">
+                      mdd:grid-cols-2">
         <div className="mx-auto
                       xss:h-auto xss:w-[90%]
-                      md:w-[70%] md:h-[40vh]">
-          <p className="w-full mx-auto text-justify flex items-center justify-center text-lg
+                      md:w-[70%] md:h-[50vh]">
+          <p className="w-full h-[40vh] mx-auto text-justify flex items-center justify-center text-lg
                         xss:w-full xss:text-justify">Our primary responsibility is giving dogs walks. 
             In addition, we socialize them, train them to walk on leashes, love them, and take them on adventures. 
             Sometimes, we take them to the city or a lake to expose them to the sounds of traffic or to learn how to swim. 
@@ -49,19 +49,19 @@ const Volunteer = () => {
       </div>
 
 
-      <div className="grid mx-auto w-[90%] mt-10 bg-purple-400
-                      xss:grid-cols-1
-                      md:grid-cols-2">
-      <div className="bg-ivan h-[40vh] w-full flex justify-center items-center bg-no-repeat bg-contain bg-red-400"></div>
-        <div className="h-[40vh] w-[70%]">
-          <p className="flex items-center justify-center mx-auto w-full text-justify h-[40vh] text-lg">
+      <div className="mx-auto flex flex-col justify-center items-center w-[90%] mt-10">
+          <p className="mx-auto w-[60%] text-justify mb-10 text-lg">
           The bond and friendship formed with the process is the best feeling any dog-lover would wish for, 
           and it is very simple to participate: you just need to contact us on our social networks, in that way, 
           you will get in touch with our volunteers who will explain everything to you. If you want to see how 
           all of this looks, visit our Facebook page where we post our walks daily!</p>
-        </div>
-       
+      <div className="bg-group h-[50vh] mx-auto w-[60%] bg-cover bg-no-repeat"></div>
       </div>
+
+      <div className="text-center mt-10">
+        <h1>Wanna be a volunteer and help us? </h1>
+        <p>Contact us at nirina@example.com</p>
+        </div>
 
 
       </div>
