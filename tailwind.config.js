@@ -14,6 +14,10 @@ module.exports = {
         'team': "url('./assets/team.webp')",
         'girlDog': "url('./assets/Header/girl_dog.jpg')",
         'nirina': "url('./assets/nirina.jpg')"
+        'happy': "url('./assets/happy2.jpg')",
+        'ivan': "url('./assets/ivan.jpg')",
+        'dogPlay': "url('./assets/dogPlay.jpg')",
+        'group': "url('./assets/group.jpg')"
       },
       screens:{
         'xss': '270px',
