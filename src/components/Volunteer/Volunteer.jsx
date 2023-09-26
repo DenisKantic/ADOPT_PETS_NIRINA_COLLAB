@@ -49,13 +49,18 @@ const Volunteer = () => {
       </div>
 
 
-      <div className="mx-auto flex flex-col justify-center items-center w-[90%] mt-10">
-          <p className="mx-auto w-[60%] text-justify mb-10 text-lg">
+      <div className="mx-auto flex flex-col justify-center items-center w-full mt-10">
+          
+      <div className="bg-group h-[70vh] mx-auto bg-center bg-no-repeat flex justify-center items-center flex-col">
+      <p className="mx-auto text-justify mb-10 text-lg text-white
+                    xss: w-[90%]
+                    md:w-[60%]">
           The bond and friendship formed with the process is the best feeling any dog-lover would wish for, 
           and it is very simple to participate: you just need to contact us on our social networks, in that way, 
           you will get in touch with our volunteers who will explain everything to you. If you want to see how 
           all of this looks, visit our Facebook page where we post our walks daily!</p>
-      <div className="bg-group h-[50vh] mx-auto w-[60%] bg-cover bg-no-repeat"></div>
+          <button className="h-[40px] w-[150px] bg-red-400">Click here</button>
+      </div>
       </div>
 
       <div className="text-center mt-10">

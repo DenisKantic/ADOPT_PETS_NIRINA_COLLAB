@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import team from '../../images/azil_team_photos/team.webp'
 import ceo from '../../images/emina_ceo.jpg';
 import vana from '../../images/azil_team_photos/vana.webp';
@@ -21,6 +21,16 @@ import '../../assets/fonts.css';
 import {AiOutlineArrowRight} from 'react-icons/ai'
 
 const Team = () => {
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, left: 0});
+  };
+
+  useEffect(()=>{
+    scrollToTop();
+  },[])
+
+
   return (
        
     <div className='mx-auto w-full bg-[#ffffff]'>
