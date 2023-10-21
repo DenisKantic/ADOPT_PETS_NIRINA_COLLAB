@@ -1,4 +1,3 @@
-import React from 'react'
 import denis from '../../images/denis.jpg';
 import ismar from '../../images/ismar.jpg';
 import '../../assets/fonts.css';
@@ -9,7 +8,6 @@ import Ceo from './Ceo';
 import Workers from './Workers';
 import Volunteers from './Volunteers';
 import ITSupport from '../AboutUs/ITSupport';
-
 
 const Team = () => {
 
