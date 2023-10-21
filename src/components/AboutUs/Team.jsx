@@ -1,4 +1,3 @@
-import React, {useEffect} from 'react'
 import team from '../../images/azil_team_photos/team.webp'
 import ceo from '../../images/emina_ceo.jpg';
 import vana from '../../images/azil_team_photos/vana.webp';
