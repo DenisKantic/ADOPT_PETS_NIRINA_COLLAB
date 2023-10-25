@@ -52,7 +52,7 @@ const Volunteer = () => {
       <div className="mx-auto flex flex-col justify-center items-center w-full mt-10">
           
       <div className="bg-group h-[70vh] mx-auto bg-center bg-no-repeat flex justify-center items-center flex-col">
-      <p className="mx-auto text-justify mb-10 text-lg text-white
+      <p className="mx-auto text-center mb-10 text-2xl text-white
                     xss: w-[90%]
                     md:w-[60%]">
           The bond and friendship formed with the process is the best feeling any dog-lover would wish for, 
@@ -63,7 +63,7 @@ const Volunteer = () => {
       </div>
       </div>
 
-      <div className="text-center mt-10">
+      <div className="text-center w-full h-[30vh] bg-red-200 flex justify-center items-center flex-col text-2xl">
         <h1>Wanna be a volunteer and help us? </h1>
         <p>Contact us at nirina@example.com</p>
         </div>
