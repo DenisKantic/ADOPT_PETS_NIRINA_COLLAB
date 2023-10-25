@@ -1,9 +1,9 @@
 import Header from "./Header/Header";
-import Team from '../AboutUs/Team';
 import Figures from "./Figures/Figures.jsx";
 import Support from "./Support/Support";
 import PuppiesForAdoption from "./Adoption/PuppiesForAdoption";
 import AdoptOrJoin from "./AdoptOrJoin/AdoptOrJoin";
+import Footer from "../Footer/Footer";
 import { useEffect } from "react";
 
 const HomePage = () => {
@@ -22,6 +22,7 @@ const HomePage = () => {
            <Support />
            <PuppiesForAdoption />
            <AdoptOrJoin />
+           <Footer />
         </>
     )
 }

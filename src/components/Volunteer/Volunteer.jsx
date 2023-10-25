@@ -1,5 +1,6 @@
 import {React,useEffect} from "react";
 import {AiOutlineArrowRight} from 'react-icons/ai';
+import Footer from "../Footer/Footer";
 
 
 
@@ -68,7 +69,7 @@ const Volunteer = () => {
         <p>Contact us at nirina@example.com</p>
         </div>
 
-
+        <Footer />
       </div>
     )
 }

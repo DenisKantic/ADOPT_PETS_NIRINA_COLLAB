@@ -1,5 +1,3 @@
-import denis from '../../images/denis.jpg';
-import ismar from '../../images/ismar.jpg';
 import '../../assets/fonts.css';
 import {AiOutlineArrowRight} from 'react-icons/ai'
 import { useEffect, useRef } from "react";
@@ -8,6 +6,7 @@ import Ceo from './Ceo';
 import Workers from './Workers';
 import Volunteers from './Volunteers';
 import ITSupport from '../AboutUs/ITSupport';
+import Footer from '../Footer/Footer';
 
 const Team = () => {
 
@@ -66,6 +65,8 @@ const Team = () => {
           <Volunteers />
 
           <ITSupport />
+
+          <Footer />
 
       </div>
     </div>
