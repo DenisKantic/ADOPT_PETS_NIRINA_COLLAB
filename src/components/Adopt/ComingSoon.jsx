@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import {AiOutlineArrowRight} from 'react-icons/ai';
+import Footer from '../Footer/Footer';
 
 const ComingSoon = () => {
 
@@ -23,6 +24,7 @@ const ComingSoon = () => {
           <p className='text-xl p-4'>If you want to see available dogs for adoption, you can click the link below.</p>
           <a className='text-xl px-4 py-2 rounded-md bg-red-400' href="https://www.facebook.com/nirina.adoptions/photos_albums">Click here!</a>
         </div>
+        <Footer />
     </div>
   )
 }

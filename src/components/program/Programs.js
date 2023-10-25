@@ -6,6 +6,7 @@ import Image from './Image';
 import Text from './Text';
 import { useEffect } from 'react';
 import {AiOutlineArrowRight} from 'react-icons/ai'
+import Footer from '../Footer/Footer';
 
 
 const scrollToTop = () => {
@@ -81,6 +82,8 @@ function Programs() {
                 gridOrder={'xss:order-6'}
                 />
             </div>
+
+            <Footer />
         </div>
     )
 };
