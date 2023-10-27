@@ -1,6 +1,5 @@
 import childWithDog from '../../assets/Programs/child_and_dog.jpg';
 import manWithDog from '../../assets/Programs/man-with-dog.png';
-import manWalkingDog from '../../assets/Programs/man-walking-dog.jpg';
 import leon from '../../assets/leon.jpg';
 import Image from './Image';
 import Text from './Text';
