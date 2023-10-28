@@ -10,6 +10,7 @@ import front_black from './shirts/front_black.png'
 import back_logo_black from './shirts/back_logo_black.png'
 import Footer from '../Footer/Footer.jsx'
 import gifWhite from './shirts/whiteT.gif'
+import gifBlack from './shirts/black_shirt_anim.gif'
 
 const Donate = () => {
 
@@ -33,23 +34,39 @@ const Donate = () => {
                     sm:text-[50px]">Donate</h1>
 
               <div className='w-full mx-auto pt-10 text-center bg-nirina bg-center h-[60vh]'>
-                  <p className='text-2xl h-full flex justify-center items-center mx-auto text-white flex-col
-                                xss:w-[90%]
-                                md:w-[60%]'>
+                  <p className='h-full flex justify-center items-center mx-auto text-white flex-col
+                                xss:w-[90%] xss:text-sm
+                                md:w-[60%] md:text-xl lg:text-2xl'>
                     On our Facebook group, we publish all the receipts as proff of what the donated funds were spent on, <br />
                     in order to keep everything transparent. You can donate via: <br />
                     Intesa Sanpaolo (BiH) - 1543602005381040 <br />
                     Volksbank Mittelhesen - Tierhilfe Pfotentraum e.V  <br />
                     IBAN: DE80 5139 0000 0032 6531 03 <br />
                     BIC: VBMHDE5F <br />
-                  <p className='text-2xl pt-10'>To donate on PayPal, click the button bellow</p>
+                  <p className='xss:text-lg xss:pt-2 md:pt-10 md:text-2xl'>To donate on PayPal, click the button bellow</p>
                   <a href="">Paypal</a>
                   </p>
 
               </div>
 
-              <h1 className='text-5xl text-center pt-10'>YOU CAN ALSO HELP US WITH BUYING OUR T-SHIRTS!!!</h1>
-              <p className='text-center text-2xl p-2'>Our shirts are available in two colors: black and white</p>
+              <h1 className='text-center pt-10 
+                            xss:text-2xl md:text-5xl w-[90%] mx-auto'><b>YOU CAN ALSO HELP US WITH BUYING OUR T-SHIRTS!!!</b></h1>
+              <p className='text-center p-4
+                            xss:text-xl
+                            md:text-2xl'>Our shirts are available in two colors: black and white</p>
+
+              <div className='mx-auto'>
+                  <h1 className='text-center text-2xl p-2'>3D MODEL with both of our design</h1>
+                  <div className='flex justify-center items-center 
+                                xss:flex-col
+                                md:flex-row'>
+                  <img src={gifWhite} alt="" />
+                  <img src={gifBlack} alt="" />
+                  </div>
+                </div>
+
+
+
               <p className='text-center text-3xl p-2'>You can choose your design below</p>
 
               <div> {/* main div for grid */}
@@ -82,11 +99,6 @@ const Donate = () => {
                 <div className='grid grid-cols-2 w-[50%] mx-auto'>
                   <img src={front_black} alt="shirt" />
                   <img src={back_logo_black} alt="shirt" />
-                </div>
-
-                <div>
-                  <h1>3D MODEL with both of our design</h1>
-                  <img src={gifWhite} alt="" />
                 </div>
 
                 <h1 className='text-2xl text-center p-20'>If you have choosen your favorite design, <br /> you can contact us on nirinashelter@gmail.com</h1>
