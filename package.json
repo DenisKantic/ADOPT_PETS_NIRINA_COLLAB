@@ -1,5 +1,6 @@
 {
   "name": "nirina-website",
+  "homepage": "https://www.nirinashelter.ba/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
