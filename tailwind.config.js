@@ -17,7 +17,8 @@ module.exports = {
         'ivan': "url('./assets/ivan.jpg')",
         'dogPlay': "url('./assets/dogPlay.jpg')",
         'group': "url('./assets/group.jpg')",
-        'nirina': "url('./assets/nirina_blur_shelter.jpg')"
+        'nirina': "url('./assets/nirina_blur_shelter.jpg')",
+        'donate': "url('./assets/donate.jpg')"
       },
       screens:{
         'xss': '270px',
