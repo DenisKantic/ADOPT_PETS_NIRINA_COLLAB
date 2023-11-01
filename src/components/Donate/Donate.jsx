@@ -9,8 +9,6 @@ import back_black from './shirts/back_black.png'
 import front_black from './shirts/front_black.png'
 import back_logo_black from './shirts/back_logo_black.png'
 import Footer from '../Footer/Footer.jsx'
-import gifWhite from './shirts/whiteT.gif'
-import gifBlack from './shirts/black_shirt_anim.gif'
 
 const Donate = () => {
 
@@ -25,7 +23,7 @@ const Donate = () => {
     <div>
       
       <div className='h-screen w-full'>
-      <div className='h-[70vh] bg-nirina bg-center mx-auto w-full bg-cover bg-no-repeat flex items-center justify-center'>
+      <div className='h-[70vh] bg-nirina bg-cover mx-auto w-full flex items-center justify-center'>
       <h1 className='text-3xl text-white font-bold flex flex-row items-center'>Home  <AiOutlineArrowRight className='mx-2' size={25} /> Donate</h1>
       </div>
 
@@ -54,18 +52,6 @@ const Donate = () => {
               <p className='text-center p-4
                             xss:text-xl
                             md:text-2xl'>Our shirts are available in two colors: black and white</p>
-
-              <div className='mx-auto'>
-                  <h1 className='text-center text-2xl p-2'>3D MODEL with both of our design</h1>
-                  <div className='flex justify-center items-center 
-                                xss:flex-col
-                                md:flex-row'>
-                  <img src={gifWhite} alt="" />
-                  <img src={gifBlack} alt="" />
-                  </div>
-                </div>
-
-
 
               <p className='text-center text-3xl p-2'>You can choose your design below</p>
 
@@ -96,12 +82,14 @@ const Donate = () => {
                 </div>
 
                 <h1 className='text-center text-2xl pt-10'>Black design #2</h1>
-                <div className='grid grid-cols-2 w-[50%] mx-auto'>
+                <div className='grid w-[50%] mx-auto
+                                xss:grid-cols-1
+                                md:grid-cols-2'>
                   <img src={front_black} alt="shirt" />
                   <img src={back_logo_black} alt="shirt" />
                 </div>
 
-                <h1 className='text-2xl text-center p-20'>If you have choosen your favorite design, <br /> you can contact us on nirinashelter@gmail.com</h1>
+                <h1 className='xss:text-xl xss:text-center xss:w-full md:text-2xl p-20 mx-auto'>If you have choosen your favorite design, you can contact us on nirinashelter@gmail.com</h1>
               </div>
       
     <Footer />
@@ -110,4 +98,4 @@ const Donate = () => {
   )
 }
 
-export default Donate
+export default Donate 
