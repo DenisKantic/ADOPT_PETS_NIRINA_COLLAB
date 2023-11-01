@@ -1,5 +1,6 @@
 import React, {useEffect} from 'react'
 import {AiOutlineArrowRight} from 'react-icons/ai'
+import {BsPaypal} from 'react-icons/bs'
 import front_white_logo from './shirts/front_white_logo.png'
 import back_white from './shirts/back_white.png'
 import front_white from './shirts/front_white.png'
@@ -9,6 +10,16 @@ import back_black from './shirts/back_black.png'
 import front_black from './shirts/front_black.png'
 import back_logo_black from './shirts/back_logo_black.png'
 import Footer from '../Footer/Footer.jsx'
+import girl1 from './girls_shirts/girl1.jpg'
+import girl2 from './girls_shirts/girl2.jpg'
+import girl3 from './girls_shirts/girl3.jpg'
+import girl4 from './girls_shirts/girl4.jpg'
+import girl5 from './girls_shirts/girl5.jpg'
+import girl6 from './girls_shirts/girl6.jpg'
+
+
+
+
 
 const Donate = () => {
 
@@ -23,16 +34,16 @@ const Donate = () => {
     <div>
       
       <div className='h-screen w-full'>
-      <div className='h-[70vh] bg-nirina bg-cover mx-auto w-full flex items-center justify-center'>
+      <div className='h-[70vh] bg-donate bg-cover bg-no-repeat mx-auto w-full flex items-center justify-center'>
       <h1 className='text-3xl text-white font-bold flex flex-row items-center'>Home  <AiOutlineArrowRight className='mx-2' size={25} /> Donate</h1>
       </div>
 
-      <h1 className="text-center p-10
+      <h1 className="text-center p-10 text-[#ffa800]
                     xss:text-4xl
                     sm:text-[50px]">Donate</h1>
 
-              <div className='w-full mx-auto pt-10 text-center bg-nirina bg-center h-[60vh]'>
-                  <p className='h-full flex justify-center items-center mx-auto text-white flex-col
+              <div className='w-full mx-auto pt-10 text-center bg-[#ffa800] h-[50vh]'>
+                  <p className='h-full flex justify-center items-center mx-auto text-black flex-col
                                 xss:w-[90%] xss:text-sm
                                 md:w-[60%] md:text-xl lg:text-2xl'>
                     On our Facebook group, we publish all the receipts as proff of what the donated funds were spent on, <br />
@@ -42,7 +53,7 @@ const Donate = () => {
                     IBAN: DE80 5139 0000 0032 6531 03 <br />
                     BIC: VBMHDE5F <br />
                   <p className='xss:text-lg xss:pt-2 md:pt-10 md:text-2xl'>To donate on PayPal, click the button bellow</p>
-                  <a href="">Paypal</a>
+                  <a href="https://www.PayPal.me/Nirinashelter" className='bg-[#009cde] p-2 mt-5 rounded-xl'><BsPaypal size={35}/></a>
                   </p>
 
               </div>
@@ -87,6 +98,20 @@ const Donate = () => {
                                 md:grid-cols-2'>
                   <img src={front_black} alt="shirt" />
                   <img src={back_logo_black} alt="shirt" />
+                </div>
+
+                <h1 className='text-center text-[50px] p-10'>Here you have live examples of our shirts</h1>
+              
+                <div className='grid w-[90%] mx-auto
+                                xss:grid-cols-1
+                                md:grid-cols-2
+                                lg:grid-cols-3'>
+                  <img src={girl1} className='p-5' alt="girl_photo" />
+                  <img src={girl2} className='p-5' alt="girl_photo" />
+                  <img src={girl3} className="p-5" alt="girl_photo" />
+                  <img src={girl4} className='p-5' alt="girl_photo" />
+                  <img src={girl5} className="p-5" alt="girl_photo" />
+                  <img src={girl6} className='p-5' alt="girl_photo" />
                 </div>
 
                 <h1 className='xss:text-xl xss:text-center xss:w-full md:text-2xl p-20 mx-auto'>If you have choosen your favorite design, you can contact us on nirinashelter@gmail.com</h1>
