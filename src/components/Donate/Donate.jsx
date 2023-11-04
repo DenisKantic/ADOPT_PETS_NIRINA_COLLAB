@@ -42,18 +42,21 @@ const Donate = () => {
                     xss:text-4xl
                     sm:text-[50px]">Donate</h1>
 
-              <div className='w-full mx-auto pt-10 text-center bg-[#ffa800] h-[50vh]'>
-                  <p className='h-full flex justify-center items-center mx-auto text-black flex-col
-                                xss:w-[90%] xss:text-sm
-                                md:w-[60%] md:text-xl lg:text-2xl'>
-                    On our Facebook group, we publish all the receipts as proff of what the donated funds were spent on, <br />
+              <div className='rounded-xl flex justify-center items-center mx-auto text-center bg-[#f5f5f7] min-h-[50vh] border-[#ffa800] border-1
+                              xss:w-[90%]
+                              mdd:w-[70%]
+                              lg:w-[60%]'>
+                  <p className='h-full flex justify-center items-center  mx-auto text-black flex-col p-2
+                                xss:w-[90%] xss:text-md
+                                md:w-[90%] md:text-lg lg:text-2xl'>
+                    On our Facebook group, we publish all the receipts as proff of what the donated funds were spent on,
                     in order to keep everything transparent. You can donate via: <br />
                     Intesa Sanpaolo (BiH) - 1543602005381040 <br />
                     Volksbank Mittelhesen - Tierhilfe Pfotentraum e.V  <br />
                     IBAN: DE80 5139 0000 0032 6531 03 <br />
                     BIC: VBMHDE5F <br />
-                  <p className='xss:text-lg xss:pt-2 md:pt-10 md:text-2xl'>To donate on PayPal, click the button bellow</p>
-                  <a href="https://www.PayPal.me/Nirinashelter" className='bg-[#009cde] p-2 mt-5 rounded-xl'><BsPaypal size={35}/></a>
+                  <p className='xss:text-md xss:pt-2 md:pt-10 md:text-2xl'>To donate on PayPal, click the button bellow</p>
+                  <a href="https://www.PayPal.me/Nirinashelter" className='bg-[#009cde] text-lg text-white px-6 py-2 mt-5 rounded-md'>DONATE</a>
                   </p>
 
               </div>
@@ -66,7 +69,7 @@ const Donate = () => {
 
               <p className='text-center text-3xl p-2'>You can choose your design below</p>
 
-              <div> {/* main div for grid */}
+              <div className='bg-[#f5f5f7]'> {/* main div for grid */}
 
                   <h1 className='text-center text-2xl pt-10'>White design #1</h1>
                 <div className='grid w-[50%] mx-auto
@@ -100,7 +103,7 @@ const Donate = () => {
                   <img src={back_logo_black} alt="shirt" />
                 </div>
 
-                <h1 className='text-center text-[50px] p-10'>Here you have live examples of our shirts</h1>
+                <h1 className='text-center  xss:text-2xl md:text-4xl p-10'>Here you have live examples of our shirts</h1>
               
                 <div className='grid w-[90%] mx-auto
                                 xss:grid-cols-1
