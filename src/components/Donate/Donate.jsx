@@ -34,7 +34,7 @@ const Donate = () => {
     <div>
       
       <div className='h-screen w-full'>
-      <div className='h-[70vh] bg-donate bg-cover bg-no-repeat mx-auto w-full flex items-center justify-center'>
+      <div className='h-[70vh] bg-donate bg-cover bg-no-repeat mx-auto w-full flex items-center justify-center shadow-2xl'>
       <h1 className='text-3xl text-white font-bold flex flex-row items-center'>Home  <AiOutlineArrowRight className='mx-2' size={25} /> Donate</h1>
       </div>
 
@@ -42,11 +42,11 @@ const Donate = () => {
                     xss:text-4xl
                     sm:text-[50px]">Donate</h1>
 
-              <div className='rounded-xl flex justify-center items-center mx-auto text-center bg-[#f5f5f7] min-h-[50vh] border-[#ffa800] border-1
+              <div className='rounded-xl flex justify-center items-center mx-auto text-center bg-[#f5f5f7] min-h-[50vh] border-[#ffa800] border-1 shadow-xl
                               xss:w-[90%]
                               mdd:w-[70%]
                               lg:w-[60%]'>
-                  <p className='h-full flex justify-center items-center  mx-auto text-black flex-col p-2
+                  <p className='h-full flex justify-center items-center  mx-auto text-black flex-col p-4
                                 xss:w-[90%] xss:text-md
                                 md:w-[90%] md:text-lg lg:text-2xl'>
                     On our Facebook group, we publish all the receipts as proff of what the donated funds were spent on,
@@ -61,7 +61,7 @@ const Donate = () => {
 
               </div>
 
-              <h1 className='text-center pt-10 
+              <h1 className='text-center pt-12 
                             xss:text-2xl md:text-5xl w-[90%] mx-auto'><b>YOU CAN ALSO HELP US WITH BUYING OUR T-SHIRTS!!!</b></h1>
               <p className='text-center p-4
                             xss:text-xl
@@ -69,14 +69,14 @@ const Donate = () => {
 
               <p className='text-center text-3xl p-2'>You can choose your design below</p>
 
-              <div className='bg-[#f5f5f7]'> {/* main div for grid */}
+              <div> {/* main div for grid */}
 
                   <h1 className='text-center text-2xl pt-10'>White design #1</h1>
                 <div className='grid w-[50%] mx-auto
                                 xss:grid-cols-1
                                 md:grid-cols-2'>
-                  <img src={front_white_logo} alt="shirt" />
-                  <img src={back_white} alt="shirt" />
+                  <img src={front_white_logo} alt="shirt"/>
+                  <img src={back_white} alt="shirt"/>
                 </div>
 
                 <h1 className='text-center text-2xl pt-10'>White design #2</h1>
