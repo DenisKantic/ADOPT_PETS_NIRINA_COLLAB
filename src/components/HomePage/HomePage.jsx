@@ -15,6 +15,7 @@ const HomePage = () => {
       useEffect(()=>{
         scrollToTop();
       }, [])
+      
     return (
         <>
            <Header />

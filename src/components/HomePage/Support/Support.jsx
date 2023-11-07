@@ -56,7 +56,7 @@ const Support = () => {
     return (
         <div>
             <div className="mt-20 w-[70%] mx-auto">
-                <m.h2 ref={refTitle} initial={{y: '-100%', opacity: 0}} animate={animationControls} transition={{duration: 0.25, ease: 'easeInOut', delay: 0.60}} className="text-3xl text-center mb-20">Who supports us</m.h2>
+                <m.h2 ref={refTitle} initial={{y: '-100%', opacity: 0}} animate={animationControls} transition={{duration: 0.25, ease: 'easeInOut', delay: 0.60}} className="text-4xl text-center mb-20 text-[#19627a]">Who supports us</m.h2>
                 <Swiper className='h-[25vh]'
                 // install Swiper modules
                 modules={[Navigation, Pagination, Scrollbar, A11y]}
