@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import { motion as m, useAnimation, useInView} from 'framer-motion';
+import { Link } from "react-router-dom";
 
 const AdoptOrJoin = () => {
 
@@ -49,7 +50,7 @@ const AdoptOrJoin = () => {
 
 
     return (
-        <div className="bg-slate-100 bg-girlDog2 xss:bg-center md:bg-fixed bg-no-repeat h-[60vh] w-full flex justify-center items-center text-white
+        <div className="bg-girlDog2 xss:bg-center md:bg-fixed bg-no-repeat h-[60vh] w-full flex justify-center items-center text-white shadow-xl 
                         xss:h-screen md:h-[60vh]">
             <div className="w-[70%] mx-auto mt-20 py-10">
                 <m.h3 ref={refTitle} initial={{y: '-100%', opacity: 0}} animate={animationControls} transition={{duration: 0.25, ease: 'easeInOut', delay: 0.60}} className="text-center mb-5 text-3xl">Want to join our team and support our best friends? </m.h3> 
@@ -63,7 +64,13 @@ const AdoptOrJoin = () => {
                               xss:text-2xl">
                     If you want to join us, you can find more info below </m.p>
                 <div className="flex justify-center mt-10">
-                    <m.button ref={refButton} initial={{y: '-100%', opacity: 0}} animate={animationControls} transition={{duration: 0.25, ease: 'easeInOut', delay: 0.90}} type="button" className="bg-slate-500 text-white w-[10rem] h-[3rem] mb-10">Join</m.button>
+                   <Link to="/Volunteer">
+                   <m.button ref={refButton} initial={{y: '-100%', opacity: 0}} 
+                   animate={animationControls} transition={{duration: 0.25, ease: 'easeInOut', delay: 0.90}} 
+                   type="button" className="bg-slate-500 text-white w-[10rem] h-[3rem] mb-10 text-xl">
+                    Join
+                    </m.button>
+                    </Link>
                 </div>
             </div>
         </div>
