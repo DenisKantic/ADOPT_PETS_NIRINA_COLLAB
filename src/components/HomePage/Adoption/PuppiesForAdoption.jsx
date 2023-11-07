@@ -28,29 +28,33 @@ const PuppiesForAdoption = () => {
     const [puppy, setPuppy] = useState(
         [
             {   id: 1,
-                name: "example",
+                name: "Ava",
                 img: Puppy1,
-                birth: '5/5/2019'
+                birth: '10/05/2023'
             },
             {
                 id: 2,
                 img: Puppy2,
-                birth: '5/5/2019'
+                name: "Vigo",
+                birth: '22/09/2022'
             },
             {
                 id: 3,
                 img: Puppy3,
-                birth: '5/5/2019'
+                name: "Teri",
+                birth: '25/09/2016'
             },
             {
                 id: 4,
                 img: Puppy4,
-                birth: '5/5/2019'
+                name: "Andy (Srećko)",
+                birth: '03/03/2020'
             },
             {
                 id: 5,
                 img: Puppy5,
-                birth: '5/5/2019'
+                name: "Mila",
+                birth: '2018'
             }
         ]
     )
@@ -103,7 +107,7 @@ const PuppiesForAdoption = () => {
                 }}
             >{
                 puppy.map((puppy, index) => {
-                    return <SwiperSlide className='p-10 mx-auto'><Puppy img={puppy.img} key={puppy.id} birth={puppy.birth} about={puppy.about} initialX={250 / index} delay={puppy.id * 0.2}/></SwiperSlide>
+                    return <SwiperSlide className='p-10 mx-auto'><Puppy img={puppy.img} key={puppy.id} birth={puppy.birth} about={puppy.about} name={puppy.name} initialX={250 / index} delay={puppy.id * 0.2}/></SwiperSlide>
                 })
             }
             </Swiper>
