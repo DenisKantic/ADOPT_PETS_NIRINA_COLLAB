@@ -46,7 +46,7 @@ const Donate = () => {
                               xss:w-[90%]
                               mdd:w-[70%]
                               lg:w-[60%]'>
-                  <p className='h-full flex justify-center items-center  mx-auto text-black flex-col p-4
+                  <p className='h-full flex justify-center items-center  mx-auto text-black flex-col p-4 tracking-wide
                                 xss:w-[90%] xss:text-md
                                 md:w-[90%] md:text-lg lg:text-2xl'>
                     On our Facebook group, we publish all the receipts as proff of what the donated funds were spent on,

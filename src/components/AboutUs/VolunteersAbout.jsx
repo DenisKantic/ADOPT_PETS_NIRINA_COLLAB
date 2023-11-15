@@ -30,7 +30,7 @@ const VolunteersAbout = () => {
     }, [isTitleInView, isAboutInView, animationControls])
 
     return (
-        <div className='flex flex-col items-center p-5 tracking-wider'>
+        <div className='flex flex-col items-center p-5 tracking-wide'>
           <m.h1 ref={refTitle} initial={{opacity: 0, x: '-50%'}} animate={animationControls} transition={{duration: 0.60, ease: 'easeInOut', delay: 0.50}} className='xss:text-[40px] sm:text-[50px] pb-5 mt-[100px] font-[500]'>VOLUNTEERS</m.h1>
           <m.p ref={refAbout} initial={{opacity: 0, x: '50%'}} animate={animationControls} transition={{duration: 0.60, ease: 'easeInOut', delay: 0.60}} className='xss:w-[90%] text-lg xss:text-justify md:w-[70%] md:text-center md:text-xl font-[300] p-5'>
             Volunteers have numerous obligations, the fulfillment of which results in a greater number of adoptions. 
