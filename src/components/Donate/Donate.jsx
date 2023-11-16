@@ -56,7 +56,7 @@ const Donate = () => {
                     IBAN: DE80 5139 0000 0032 6531 03 <br />
                     BIC: VBMHDE5F <br />
                   <p className='xss:text-md xss:pt-2 md:pt-10 md:text-2xl'>To donate on PayPal, click the button bellow</p>
-                  <a href="https://www.PayPal.me/Nirinashelter" className='bg-[#009cde] text-lg text-white px-6 py-2 mt-5 rounded-md'>DONATE</a>
+                  <a href="https://www.PayPal.me/Nirinashelter" className='bg-[#009cde] text-lg px-6 py-2 mt-5 rounded-md hover:text-white'>DONATE</a>
                   </p>
 
               </div>

@@ -38,7 +38,7 @@ const VolunteerTitle = () => {
     return (
         <>
             <m.h1 ref={titleRef} initial={{y: 200, opacity: 0}} animate={animationControls} transition={{duration: 0.25, ease: 'easeInOut', delay: 0.20}} className="text-center p-10
-                xss:text-4xl
+                xss:text-4xl text-[#ffa800]
                 sm:text-[50px]">Volunteer
             </m.h1>
             <m.div ref={descriptionRef} initial={{y: 300, opacity: 0}} animate={animationControls} transition={{duration: 0.25, ease: 'easeInOut', delay: 0.20}} className="mx-auto text-xl
