@@ -35,7 +35,7 @@ const ContactForVolunteer = () => {
 
 
     return (
-        <div className="text-center w-full h-[30vh] bg-red-200 flex justify-center items-center flex-col text-2xl">
+        <div className="text-center w-full h-[30vh] bg-[#ffa800] font-extrabold text-white tracking-wider flex justify-center items-center flex-col text-2xl">
             <m.h1 ref={titleRef} initial={{y: 50, opacity: 0}} animate={animationControls} transition={{duration: 0.25, ease: 'easeInOut', delay: 0.30}}>Wanna be a volunteer and help us? </m.h1>
             <m.p ref={descriptionRef} initial={{y: 50, opacity: 0}} animate={animationControls} transition={{duration: 0.25, ease: 'easeInOut', delay: 0.30}}>Contact us at nirina@example.com</m.p>
         </div>

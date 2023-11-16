@@ -45,7 +45,7 @@ const BondAndFriendship = () => {
                     you will get in touch with our volunteers who will explain everything to you. If you want to see how 
                     all of this looks, visit our Facebook page where we post our walks daily!
                 </m.p>
-                <m.button ref={buttonRef} initial={{y: 600, opacity: 0}} animate={animationControls} transition={{duration: 0.25, ease: 'easeInOut', delay: 0.20}} className="h-[40px] w-[150px] bg-red-400">Click here</m.button>
+                <m.button ref={buttonRef} initial={{y: 600, opacity: 0}} animate={animationControls} transition={{duration: 0.25, ease: 'easeInOut', delay: 0.20}} className="h-[40px] w-[150px] bg-[#ffa800] rounded-lg text-xl">Click here</m.button>
             </div>
         </div>
     )

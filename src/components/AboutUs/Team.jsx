@@ -48,7 +48,7 @@ const Team = () => {
                           md:h-[70vh]'>
               <m.h1 initial={{opacity: 0, y: '-50%'}} animate={{opacity: 1, y: 0}} transition={{duration: 0.60, ease: 'easeInOut', delay: 0.40}} className='text-3xl text-white font-bold flex flex-row items-center'>Home  <AiOutlineArrowRight className='mx-2' size={25} /> Our Team</m.h1>
           </div>
-          <m.h1 ref={refOurTeamTitle} initial={{opacity: 0, y: '-50%'}} animate={animationControls} transition={{duration: 0.60, ease: 'easeInOut', delay: 0.50}} className='text-center text-[60px] pt-5'>OUR TEAM</m.h1>
+          <m.h1 ref={refOurTeamTitle} initial={{opacity: 0, y: '-50%'}} animate={animationControls} transition={{duration: 0.60, ease: 'easeInOut', delay: 0.50}} className='text-center text-[50px] pt-5 text-[#ffa800]'>Our Team</m.h1>
         </div>
 
       <div className='flex justify-center flex-col items-center  w-auto'>
