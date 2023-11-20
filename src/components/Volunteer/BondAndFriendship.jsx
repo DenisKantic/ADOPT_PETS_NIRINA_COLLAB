@@ -34,7 +34,7 @@ const BondAndFriendship = () => {
     }, [animationControls, isDescriptionRefInView, isButtonRefInView])
 
     return (
-        <div className="mx-auto flex flex-col justify-center items-center w-full">
+        <div className="mx-auto flex flex-col justify-center items-center w-full pt-10">
             <div className="bg-group h-[70vh] mx-auto bg-center bg-no-repeat flex justify-center items-center flex-col">
                 <m.p ref={descriptionRef} initial={{y: 600, opacity: 0}} animate={animationControls} transition={{duration: 0.25, ease: 'easeInOut', delay: 0.10}} className="mx-auto text-center mb-10 text-white
                             xss:text-lg xss:text-justify xss:w-[90%]

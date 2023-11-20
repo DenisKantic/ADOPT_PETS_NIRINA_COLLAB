@@ -29,7 +29,6 @@ const Volunteer = () => {
           <VolunteerTitle />
           <WhatWeDo />
           <BondAndFriendship />
-          <ContactForVolunteer />
           <Footer />
       </div>
     )
