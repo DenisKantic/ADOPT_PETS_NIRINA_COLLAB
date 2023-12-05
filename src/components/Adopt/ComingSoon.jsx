@@ -20,7 +20,7 @@ const ComingSoon = () => {
       </div>
 
        <div className='h-[40vh] flex flex-col justify-center items-center'>
-          <h1 className='text-4xl p-4'>This part of the web application is still in progress... </h1>
+          <h1 className='p-4 xss:text-xl md:text-2xl lg:text-4xl text-center'>This part of the web application is still in progress... </h1>
           <p className='text-xl p-4'>If you want to see available dogs for adoption, you can click the link below.</p>
           <a className='text-xl px-4 py-2 rounded-md bg-[#ffa800]' href="https://www.facebook.com/nirina.adoptions/photos_albums">Click here!</a>
         </div>
