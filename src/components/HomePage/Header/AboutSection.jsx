@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import { motion as m, useAnimation, useInView} from 'framer-motion';
+import { Link } from "react-router-dom";
 
 const AboutSection = () => {
 
@@ -72,7 +73,7 @@ const AboutSection = () => {
                             md:text-2xl">
                     If you want to learn more about us, then click the button below </m.p>
                 <div className="flex justify-center mt-10">
-                    <m.button ref={refButton} initial={{y: '-150%', opacity: 0}} animate={animationControls} transition={{duration: 0.25, ease: 'easeInOut', delay: 0.90}} type="button" className="bg-slate-500 text-white w-[10rem] h-[3rem]">About us!</m.button>
+                   <Link to="/Team"><m.button ref={refButton} initial={{y: '-150%', opacity: 0}} animate={animationControls} transition={{duration: 0.25, ease: 'easeInOut', delay: 0.90}} type="button" className="bg-slate-500 text-white w-[10rem] h-[3rem] rounded-md text-xl">About us!</m.button></Link>
                 </div>
             </div>
         </div>

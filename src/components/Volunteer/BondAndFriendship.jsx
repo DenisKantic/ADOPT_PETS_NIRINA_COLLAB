@@ -34,8 +34,8 @@ const BondAndFriendship = () => {
     }, [animationControls, isDescriptionRefInView, isButtonRefInView])
 
     return (
-        <div className="mx-auto flex flex-col justify-center items-center w-full">
-            <div className="bg-group h-[70vh] mx-auto bg-center bg-no-repeat flex justify-center items-center flex-col">
+        <div className="mx-auto flex flex-col justify-center items-center w-full pt-10">
+            <div className="bg-group h-[80vh] mx-auto bg-center bg-no-repeat flex justify-center items-center flex-col">
                 <m.p ref={descriptionRef} initial={{y: 600, opacity: 0}} animate={animationControls} transition={{duration: 0.25, ease: 'easeInOut', delay: 0.10}} className="mx-auto text-center mb-10 text-white
                             xss:text-lg xss:text-justify xss:w-[90%]
                             md:w-[60%]
@@ -45,7 +45,7 @@ const BondAndFriendship = () => {
                     you will get in touch with our volunteers who will explain everything to you. If you want to see how 
                     all of this looks, visit our Facebook page where we post our walks daily!
                 </m.p>
-                <m.button ref={buttonRef} initial={{y: 600, opacity: 0}} animate={animationControls} transition={{duration: 0.25, ease: 'easeInOut', delay: 0.20}} className="h-[40px] w-[150px] bg-[#ffa800] rounded-lg text-xl">Click here</m.button>
+                <m.button ref={buttonRef} initial={{y: 600, opacity: 0}} animate={animationControls} transition={{duration: 0.25, ease: 'easeInOut', delay: 0.20}} className="h-[50px] w-[150px] bg-[#ffa800] rounded-lg text-xl text-gray"><a href="https://www.facebook.com/groups/330001807080905">Click here</a> </m.button>
             </div>
         </div>
     )

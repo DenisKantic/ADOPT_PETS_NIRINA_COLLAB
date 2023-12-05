@@ -67,7 +67,7 @@ const AdoptOrJoin = () => {
                    <Link to="/Volunteer">
                    <m.button ref={refButton} initial={{y: '-100%', opacity: 0}} 
                    animate={animationControls} transition={{duration: 0.25, ease: 'easeInOut', delay: 0.90}} 
-                   type="button" className="bg-slate-500 text-white w-[10rem] h-[3rem] mb-10 text-xl">
+                   type="button" className="bg-slate-500 text-white w-[10rem] h-[3rem] rounded-md text-xl mb-10">
                     Join
                     </m.button>
                     </Link>

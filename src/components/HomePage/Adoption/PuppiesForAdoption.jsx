@@ -122,8 +122,8 @@ const PuppiesForAdoption = () => {
                 ref={refButton} initial={{y: '100%', opacity: 0}}
                 animate={animationControls} 
                 transition={{duration: 0.25, ease: 'easeInOut', delay: 0.60}} 
-                className='bg-slate-500 mt-10 w-[10rem] h-[3rem] text-white mb-10'>
-                Adopt
+                className='bg-slate-500 text-white w-[10rem] h-[3rem] rounded-md text-xl m-5'>
+                Adopt!
                 </m.button>
             </Link>
             </div>
