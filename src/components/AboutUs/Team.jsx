@@ -16,6 +16,14 @@ const Team = () => {
   const isOurTeamAboutInView = useInView(refOurTeamAbout, {once: true});
   const animationControls = useAnimation();
 
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, left: 0});
+  };
+
+  useEffect(()=>{
+    scrollToTop();
+  },[])
+
   useEffect(()=> {
     if (isOurTeamAboutInView) {
       animationControls.start(
@@ -34,6 +42,7 @@ const Team = () => {
     
 
   }, [isOurTeamAboutInView, isOurTeamTitleInView,  animationControls])
+  
 
   return (
        
