@@ -8,6 +8,9 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import dog1 from './images/dog1.JPG'
 import dog2 from './images/dog2.jpeg'
+import dog3 from './images/dog3.jpg'
+import dog4 from './images/dog4.jpeg'
+import dog5 from './images/dog5.jpeg'
 
 const HappyEndAbout = () => {
 
@@ -71,6 +74,9 @@ const HappyEndAbout = () => {
                  pagination={{ clickable: true }}>
                   <SwiperSlide><img src={dog1} alt="dog" className="h-[70vh] w-full object-cover"/></SwiperSlide>
                   <SwiperSlide><img src={dog2} alt="dog" className="h-[70vh] w-full object-cover"/></SwiperSlide>
+                  <SwiperSlide><img src={dog3} alt="dog" className="h-[70vh] w-full object-cover"/></SwiperSlide>
+                  <SwiperSlide><img src={dog4} alt="dog" className="h-[70vh] w-full object-cover"/></SwiperSlide>
+                  <SwiperSlide><img src={dog5} alt="dog" className="h-[70vh] w-full object-cover"/></SwiperSlide>
 
                 </Swiper>
 
