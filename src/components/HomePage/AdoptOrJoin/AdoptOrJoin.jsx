@@ -56,8 +56,7 @@ const AdoptOrJoin = () => {
                 <m.h3 ref={refTitle} initial={{y: '-100%', opacity: 0}} animate={animationControls} transition={{duration: 0.25, ease: 'easeInOut', delay: 0.60}} className="text-center mb-5 text-3xl">Want to join our team and support our best friends? </m.h3> 
                 <m.p ref={refAboutText} initial={{y: '-100%', opacity: 0}} animate={animationControls} transition={{duration: 0.25, ease: 'easeInOut', delay: 0.70}} className="text-justify mt-10
                               xss:text-lg xs:text-xl">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 
-                1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries
+                   Volunteering is a selfless and altruistic act that involves dedicating one's time, skills, and energy to support and contribute to the well-being of others and the community. It is a powerful way for individuals to make a positive impact and create meaningful change in the world.
                 </m.p>
 
                 <m.p ref={refJoin} initial={{y: '-100%', opacity: 0}} animate={animationControls} transition={{duration: 0.25, ease: 'easeInOut', delay: 0.80}} className="text-center mt-5
