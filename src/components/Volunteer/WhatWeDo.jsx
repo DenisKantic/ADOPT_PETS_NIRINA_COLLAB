@@ -55,14 +55,14 @@ const WhatWeDo = () => {
 
     return (
         <>
-            <div className="mx-auto mt-10 xss:w-[90%] md:w-[70%] lg:w-[60%] z-10" id="aboutUs">
+            <div className="mx-auto mt-10 xss:w-[90%] md:w-[70%] lg:w-[60%] z-10 overflow-hidden" id="aboutUs">
             <div className="mb-10 shadow-2xl min-h-[20vh] p-5">
                 <m.h1  ref={refTitle} initial={{y: '-50%', opacity: 0}} animate={animationControls} transition={{duration: 0.25, ease: 'easeInOut', delay: 0.60}} className="text-center text-4xl mb-10 text-center mx-auto
                                 xss:text-2xl xss:font-bold xss:w-[90%] 
                                 xs:text-3xl
                                 sm:text-4xl
                                 md:text-5xl md:font-normal text-[#19627a]">What do we do at the shelter?</m.h1>
-                <m.p ref={refAboutLongText} initial={{y: '-100%', opacity: 0}} animate={animationControls} transition={{duration: 0.25, ease: 'easeInOut', delay: 0.70}} className="mx-auto
+                <m.p ref={refAboutLongText} initial={{y: '-30%', opacity: 0}} animate={animationControls} transition={{duration: 0.25, ease: 'easeInOut', delay: 0.40}} className="mx-auto
                             xss:w-full xss:text-justify xss:text-lg
                             mdd:text-justify mdd:text-xl md:w-[90%] text-black z-10">
                Our primary responsibility is giving dogs walks. 
@@ -72,7 +72,7 @@ const WhatWeDo = () => {
                     easyly from your home. We always need some help in promoting our dogs and projects. We also need new enthusiastic 
                     people with fresh ideas who would love to improve our work.
                 </m.p>
-                <m.p ref={refAboutShortText} initial={{y: '-120%', opacity: 0}} animate={animationControls} transition={{duration: 0.25, ease: 'easeInOut', delay: 0.80}} className="mt-5 text-center
+                <m.p ref={refAboutShortText} initial={{y: '-20%', opacity: 0}} animate={animationControls} transition={{duration: 0.25, ease: 'easeInOut', delay: 0.40}} className="mt-5 text-center
                             xss:text-xl mx-auto w-[90%]
                             md:text-2xl">
                    Wanna be a volunteer and help us? <br />

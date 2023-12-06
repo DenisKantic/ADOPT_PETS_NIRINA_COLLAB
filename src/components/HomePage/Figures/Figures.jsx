@@ -57,8 +57,8 @@ const Figures = () => {
     }, [isTitleInView, isPetsAdoptedInView, isDonationsInView, isProgramsInView, animationControls])
     
     return (
-        <div className='mx-auto min-h-[40vh] pt-10 mx-auto w-full'>
-            <m.div initial={{y: '-150%', opacity: 0}} animate={animationControls} transition={{duration: 0.25, ease: 'easeInOut', delay: 0.60}} ref={refTitle} className="text-center">
+        <div className='mx-auto min-h-[40vh] pt-10 w-full'>
+            <m.div initial={{y: '-150%', opacity: 0}} animate={animationControls} transition={{duration: 0.25, ease: 'easeInOut', delay: 0.20}} ref={refTitle} className="text-center">
                 <h2 className="text-2xl font-bold ">11 years of impact</h2>
                 
                 <p className="text-lg p-2">We fetches some numbers for you</p>
@@ -71,14 +71,14 @@ const Figures = () => {
                             md:flex-row'>
 
             {/*card */}
-            <m.div ref={refPetsAdopted} initial={{x: '-100%', opacity: 0}} animate={animationControls} transition={{duration: 0.25, ease: 'easeInOut', delay: 0.60}} className='flex flex-col items-center justify-center'>
+            <m.div ref={refPetsAdopted} initial={{x: '-50%', opacity: 0}} animate={animationControls} transition={{duration: 0.25, ease: 'easeInOut', delay: 0.20}} className='flex flex-col items-center justify-center'>
                 <h1 className='text-3xl p-4'>cca 3000</h1>
                 <p className='text-xl p-4'>Total pets adopted</p>
                 <FaDog size={50} />
                 <Link to="/Adopt"><button className='py-2 bg-slate-200 px-2 mt-4'>Boop for info!</button></Link>
             </m.div>
 
-            <m.div ref={refDonations} initial={{x: '-150%', opacity: 0}} animate={animationControls} transition={{duration: 0.25, ease: 'easeInOut', delay: 0.70}} className='flex flex-col items-center justify-center'>
+            <m.div ref={refDonations} initial={{x: '-50%', opacity: 0}} animate={animationControls} transition={{duration: 0.25, ease: 'easeInOut', delay: 0.20}} className='flex flex-col items-center justify-center'>
                 <h1 className='text-3xl p-4'>$ thousands</h1>
                 <p className='text-xl p-4'>in food & products donation</p>
                 <AiFillDollarCircle  size={50}/>
@@ -86,7 +86,7 @@ const Figures = () => {
             </m.div>
 
 
-            <m.div ref={refPrograms} initial={{x: '-200%', opacity: 0}} animate={animationControls} transition={{duration: 0.25, ease: 'easeInOut', delay: 0.80}} className='flex flex-col items-center justify-center'>
+            <m.div ref={refPrograms} initial={{x: '-50%', opacity: 0}} animate={animationControls} transition={{duration: 0.25, ease: 'easeInOut', delay: 0.20}} className='flex flex-col items-center justify-center'>
                 <h1 className='text-3xl p-4'>Various programs</h1>
                 <p className='text-xl p-4'>The Walking program and more...</p>
                 <PiDogBold size={50} />
